@@ -1,0 +1,13 @@
+.openIconContainer--drawer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.menuIcon--drawer {
+  color: #c9591b;
+  font-size: 30px;
+}
+.cartIcon {
+  color: #c9591b;
+  font-size: 30px;
+}

@@ -1,0 +1,62 @@
+{
+  "footer": {
+    "blocks": [
+      "footer-layout.desktop",
+      "footer-layout.mobile"
+    ]
+  },
+  "footer-layout.desktop": {
+    "children": [
+      "flex-layout.row#footer-container"
+    ]
+  },
+  "footer-layout.mobile": {
+    "children": [
+      "flex-layout.row#footer-container"
+    ]
+  },
+  "flex-layout.row#footer-container": {
+    "children": [
+      "flex-layout.col#footer-content"
+    ],
+    "props": {
+      "blockClass": "footer-container",
+      "fullWidth": true
+    }
+  },
+  "flex-layout.col#footer-content": {
+    "children": [
+      "social-networks",
+      "rich-text#direccion",
+      "rich-text#empresa"
+    ],
+    "props": {
+      "blockClass": "footer-content"
+    }
+  },
+  "social-networks": {
+    "props": {
+    "socialNetworks": [
+      { "url": "#", "name": "Facebook" },
+      { "url": "#", "name": "Instagram" },
+      { "url": "#", "name": "LinkedIn" },
+      { "url": "#", "name": "Youtube" }
+    ],
+    "showInColor": true, 
+    "horizontalAlign": "center", 
+    "blockClass": "footer-social-icons" 
+  }
+  },
+  "rich-text#direccion": {
+    "props": {
+      "text": "Bogotá, Cra 15 # 77 - 05, Centro de alta tecnología, Local 191.",
+      "blockClass": "footer-text"
+    }
+  },
+  "rich-text#empresa": {
+    "props": {
+      "text": "Luokka Technology by D.O",
+      "blockClass": "footer-text"
+    }
+  }
+}

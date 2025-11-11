@@ -1,0 +1,476 @@
+{
+  "flex-layout.row#featured-products": {
+    "title": "Featured products",
+    "children": [
+      "flex-layout.col#featured__products--one"
+    ],
+    "props": {
+      "blockClass": "featured-row",
+      "fullWidth": true
+    }
+  },
+  "flex-layout.col#featured__products--one": {
+    "title": "Featured product",
+    "children": [
+      "rich-text#featured",
+      "flex-layout.row#featured-row-1",
+      "flex-layout.row#featured-row-2"
+    ]
+  },
+  "rich-text#featured": {
+    "props": {
+      "text": "# Destacados",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+
+  "flex-layout.row#featured-row-1": {
+    "children": [
+      "flex-layout.col#1",
+      "flex-layout.col#2",
+      "flex-layout.col#3",
+      "flex-layout.col#4",
+      "flex-layout.col#5"
+    ],
+    "props": {
+      "blockClass": "featured-grid-row",
+      "fullWidth": true,
+      "marginTop": 4
+    }
+  },
+
+  "flex-layout.row#featured-row-2": {
+    "children": [
+      "flex-layout.col#6",
+      "flex-layout.col#7",
+      "flex-layout.col#8",
+      "flex-layout.col#9",
+      "flex-layout.col#10"
+    ],
+    "props": {
+      "blockClass": "featured-grid-row",
+      "fullWidth": true,
+      "marginTop": 4
+    }
+  },
+ 
+  "flex-layout.col#1": {
+    "children": [
+      "image#product-1",
+      "rich-text#cat-1",
+      "rich-text#desc-1",
+      "rich-text#price-1",
+      "rich-text#buy-1"
+    ],
+    "props": {
+      "blockClass": "static-shelf-item"
+    }
+  },
+  "image#product-1": {
+    "props": {
+      "src": "assets/products/p1.webp",
+      "alt": "Product 1"
+    }
+  },
+  "rich-text#cat-1": {
+    "props": {
+      "text": "Almacenamiento",
+      "blockClass": "featured-category"
+    }
+  },
+  "rich-text#desc-1": {
+    "props": {
+      "text": "Disco Externo 20 Teras Seagate Expansion USB",
+      "blockClass": "featured-description"
+    }
+  },
+  "rich-text#price-1": {
+    "props": {
+      "text": "$2.580.000", "blockClass": "price"
+    }
+  },
+  "rich-text#buy-1": {
+    "props": {
+      "text": "Añadir al Carrito",
+"blockClass": "buy-button"
+    }
+  },
+
+  "flex-layout.col#2": {
+    "children": [
+      "image#product-2",
+      "rich-text#cat-2",
+      "rich-text#desc-2",
+      "rich-text#price-2",
+      "rich-text#buy-2"
+    ],
+    "props": {
+      "blockClass": "static-shelf-item"
+    }
+  },
+  "image#product-2": {
+    "props": {
+      "src": "assets/products/p2.webp",
+      "alt": "Product 2"
+    }
+  },
+  "rich-text#cat-2": {
+    "props": {
+      "text": "Procesadores", 
+      "blockClass": "featured-category"
+    }
+  },
+  "rich-text#desc-2": {
+    "props": {
+      "text": "Procesador AMD Ryzen 9 9900X3D - 12 Nucleos - AM5 - Sin Cooler",
+      "blockClass": "featured-description"
+    }
+  },
+  "rich-text#price-2": {
+    "props": {
+      "text": "$2.940.000", "blockClass": "price"
+    }
+  },
+  "rich-text#buy-2": {
+    "props": {
+      "text": "Añadir al Carrito",
+"blockClass": "buy-button"
+    }
+  },
+
+  "flex-layout.col#3": {
+    "children": [
+      "image#product-3",
+      "rich-text#cat-3",
+      "rich-text#desc-3",
+      "rich-text#price-3",
+      "rich-text#buy-3"
+    ],
+    "props": {
+      "blockClass": "static-shelf-item"
+    }
+  },
+  "image#product-3": {
+    "props": {
+      "src": "assets/products/p3.webp",
+      "alt": "Product 3"
+    }
+  },
+  "rich-text#cat-3": {
+    "props": {
+      "text": "Almacenamiento",
+      "blockClass": "featured-category"
+    }
+  },
+  "rich-text#desc-3": {
+    "props": {
+      "text": "Disco Externo 2 TB Toshiba Canvio Basics USB 3.0",
+      "blockClass": "featured-description"
+    }
+  },
+  "rich-text#price-3": {
+    "props": {
+      "text": "$320.000", "blockClass": "price"
+    }
+  },
+  "rich-text#buy-3": {
+    "props": {
+      "text": "Añadir al Carrito",
+"blockClass": "buy-button"
+    }
+  },
+
+  "flex-layout.col#4": {
+    "children": [
+      "image#product-4",
+      "rich-text#cat-4",
+      "rich-text#desc-4",
+      "rich-text#price-4",
+      "rich-text#buy-4"
+    ],
+    "props": {
+      "blockClass": "static-shelf-item"
+    }
+  },
+  "image#product-4": {
+    "props": {
+      "src": "assets/products/p4.webp",
+      "alt": "Product 4"
+    }
+  },
+  "rich-text#cat-4": {
+    "props": {
+      "text": "Fuente",
+      "blockClass": "featured-category"
+    }
+  },
+  "rich-text#desc-4": {
+    "props": {
+      "text": "Fuente Asrock 550W Bronze",
+      "blockClass": "featured-description"
+    }
+  },
+  "rich-text#price-4": {
+    "props": {
+      "text": "$250.000",
+      "blockClass": "price"
+    }
+  },
+  "rich-text#buy-4": {
+    "props": {
+      "text": "Añadir al Carrito",
+"blockClass": "buy-button"
+    }
+  },
+
+  "flex-layout.col#5": {
+    "children": [
+      "image#product-5",
+      "rich-text#cat-5",
+      "rich-text#desc-5",
+      "rich-text#price-5",
+      "rich-text#buy-5"
+    ],
+    "props": {
+      "blockClass": "static-shelf-item"
+    }
+  },
+  "image#product-5": {
+    "props": {
+      "src": "assets/products/p5.webp",
+      "alt": "Product 5"
+    }
+  },
+  "rich-text#cat-5": {
+    "props": {
+      "text": "Procesadores", 
+      "blockClass": "featured-category"
+    }
+  },
+  "rich-text#desc-5": {
+    "props": {
+      "text": "Procesador AMD Ryzen 9 9950X - 16 Núcleos - AM5 - Sin Cooler",
+      "blockClass": "featured-description"
+    }
+  },
+  "rich-text#price-5": {
+    "props": {
+      "text": "$2.880.000", 
+      "blockClass": "price"
+    }
+  },
+  "rich-text#buy-5": {
+    "props": {
+      "text": "Añadir al Carrito",
+"blockClass": "buy-button"
+    }
+  },
+
+  "flex-layout.col#6": {
+    "children": [
+      "image#product-6",
+      "rich-text#cat-6",
+      "rich-text#desc-6",
+      "rich-text#price-6",
+      "rich-text#buy-6"
+    ],
+    "props": {
+      "blockClass": "static-shelf-item"
+    }
+  },
+  "image#product-6": {
+    "props": { "src": "assets/products/p6.webp", "alt": "Product 6" }
+  },
+  "rich-text#cat-6": {
+    "props": {
+      "text": "Procesadores", 
+      "blockClass": "featured-category"
+    }
+  },
+  "rich-text#desc-6": {
+    "props": {
+      "text": "Procesador AMD Ryzen 7 9700X 8 Núcleos AM5 Grafica Radeon",
+      "blockClass": "featured-description"
+    }
+  },
+  "rich-text#price-6": {
+    "props": {
+      "text": "$1.630.000", "blockClass": "price"
+    }
+  },
+  "rich-text#buy-6": {
+    "props": {
+      "text": "Añadir al Carrito",
+      "blockClass": "buy-button"
+    }
+  },
+
+  "flex-layout.col#7": {
+    "children": [
+      "image#product-7",
+      "rich-text#cat-7",
+      "rich-text#desc-7",
+      "rich-text#price-7",
+      "rich-text#buy-7"
+    ],
+    "props": {
+      "blockClass": "static-shelf-item"
+    }
+  },
+  "image#product-7": {
+    "props": {
+      "src": "assets/products/p7.webp",
+      "alt": "Product 7"
+    }
+  },
+  "rich-text#cat-7": {
+    "props": {
+      "text": "Boards", 
+      "blockClass": "featured-category"
+    }
+  },
+  "rich-text#desc-7": {
+    "props": {
+      "text": "Board Asrock INTEL Z890 Livemixer Wifi DDR5",
+      "blockClass": "featured-description"
+    }
+  },
+  "rich-text#price-7": {
+    "props": {
+      "text": "$956.000", "blockClass": "price"
+    }
+  },
+  "rich-text#buy-7": {
+    "props": {
+      "text": "Añadir al Carrito",
+"blockClass": "buy-button"
+    }
+  },
+
+  "flex-layout.col#8": {
+    "children": [
+      "image#product-8",
+      "rich-text#cat-8",
+      "rich-text#desc-8",
+      "rich-text#price-8",
+      "rich-text#buy-8"
+    ],
+    "props": {
+      "blockClass": "static-shelf-item"
+    }
+  },
+  "image#product-8": {
+    "props": {
+      "src": "assets/products/p8.webp",
+      "alt": "Product 8"
+    }
+  },
+  "rich-text#cat-8": {
+    "props": {
+      "text": "Procesadores", 
+      "blockClass": "featured-category"
+    }
+  },
+  "rich-text#desc-8": {
+    "props": {
+      "text": "Procesador Intel Core Ultra 7 265K",
+      "blockClass": "featured-description"
+    }
+  },
+  "rich-text#price-8": {
+    "props": {
+      "text": "$1.770.000", "blockClass": "price"
+    }
+  },
+  "rich-text#buy-8": {
+    "props": {
+      "text": "Añadir al Carrito",
+"blockClass": "buy-button"
+    }
+  },
+
+  "flex-layout.col#9": {
+    "children": [
+      "image#product-9",
+      "rich-text#cat-9",
+      "rich-text#desc-9",
+      "rich-text#price-9",
+      "rich-text#buy-9"
+    ],
+    "props": {
+      "blockClass": "static-shelf-item"
+    }
+  },
+  "image#product-9": {
+    "props": {
+      "src": "assets/products/p9.webp",
+      "alt": "Product 9"
+    }
+  },
+  "rich-text#cat-9": {
+    "props": {
+      "text": "Almacenamiento", 
+      "blockClass": "featured-category"
+    }
+  },
+  "rich-text#desc-9": {
+    "props": {
+      "text": "Disco Externo 24 Teras Seagate Expansion USB 3.0",
+      "blockClass": "featured-description"
+    }
+  },
+  "rich-text#price-9": {
+    "props": {
+      "text": "$2.900.000", "blockClass": "price"
+    }
+  },
+  "rich-text#buy-9": {
+    "props": {
+      "text": "Añadir al Carrito",
+"blockClass": "buy-button"
+    }
+  },
+
+  "flex-layout.col#10": {
+    "children": [
+      "image#product-10",
+      "rich-text#cat-10",
+      "rich-text#desc-10",
+      "rich-text#price-10",
+      "rich-text#buy-10"
+    ],
+    "props": {
+      "blockClass": "static-shelf-item"
+    }
+  },
+  "image#product-10": {
+    "props": {
+      "src": "assets/products/p10.webp",
+      "alt": "Product 10"
+    }
+  },
+  "rich-text#cat-10": {
+    "props": {
+      "text": "Boards", 
+      "blockClass": "featured-category"
+    }
+  },
+  "rich-text#desc-10": {
+    "props": {
+      "text": "Board Asrock INTEL H510M-HDV/M.2 SE LGA 1200 Micro ATX",
+      "blockClass": "featured-description"
+    }
+  },
+  "rich-text#price-10": {
+    "props": {
+      "text": "$500.000", "blockClass": "price"
+    }
+  },
+  "rich-text#buy-10": {
+    "props": {
+      "text": "Añadir al Carrito",
+      "blockClass": "buy-button"
+    }
+  }
+}

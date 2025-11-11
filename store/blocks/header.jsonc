@@ -1,0 +1,129 @@
+{
+  "header": {
+    "blocks": [
+      "header-layout.desktop",
+      "header-layout.mobile"
+    ]
+  },
+  "header.full": {
+    "blocks": [
+      "header-layout.desktop",  
+      "header-layout.mobile"
+    ]
+  },
+  "header-layout.desktop": {
+    "children": [
+      "sticky-layout#desktop"
+    ]
+  },
+  "sticky-layout#desktop": {
+    "props": {
+      "blockClass": "sticky-header"
+    },
+    "children": [
+      "flex-layout.row#desktop"
+    ]
+  },
+  "flex-layout.row#desktop": {
+    "props": {
+      "blockClass": "header-main-row",
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "fullWidth": true
+    },
+    "children": [
+      "flex-layout.col#logo-desktop",
+      "flex-layout.col#spacer",
+      "search-bar",
+      "rich-text#home",
+      "rich-text#sobre-nosotros",
+      "rich-text#tienda",
+      "minicart.v2"
+    ]
+  },
+  "rich-text#home": {
+    "props": {
+      "text": "Home",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "blockClass": "header-text"
+    }
+  },
+  "rich-text#sobre-nosotros": {
+    "props": {
+      "text": "Sobre nosotros",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "blockClass": "header-text"
+    }
+  },
+  "rich-text#tienda": {
+    "props": {
+     "text": "Tienda",
+     "textAlignment": "CENTER",
+     "textPosition": "CENTER",
+     "blockClass": "header-text"
+    }
+  },
+  "flex-layout.col#spacer": {
+    "props": {
+      "width": "grow"
+    }
+  },
+  "flex-layout.col#logo-desktop": {
+    "props": {
+      "verticalAlign": "middle"
+    },
+    "children": [
+      "logo"
+    ]
+  },
+  "logo": {
+    "props": {
+      "title": "Logo",
+      "href": "assets/img/logo.webp",
+      "url": "assets/img/logo.webp",
+      "width": "170",
+      "height": "80"
+    }
+  },
+  "header-layout.mobile": {
+    "children": [
+      "sticky-layout#mobile"
+    ]
+  },
+  "sticky-layout#mobile": {
+    "props": {
+      "blockClass": "sticky-header"
+    },
+    "children": [
+      "flex-layout.row#mobile"
+    ]
+  },
+  "flex-layout.row#mobile": {
+    "children": [
+      "logo",
+      "flex-layout.col#spacer",
+      "minicart.v2",
+      "drawer"
+    ],
+    "props": {
+      "blockClass": "main-header-mobile",
+      "preventHorizontalStretch": true,
+      "preserveLayoutOnMobile": true,
+      "fullWidth": true
+    }
+  },
+  "drawer": {
+    "children": [
+      "rich-text#home",
+      "rich-text#sobre-nosotros",
+      "rich-text#tienda"
+    ],
+    "props": {
+      "blockClass": "drawer"
+    }
+  }
+}

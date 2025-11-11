@@ -1,0 +1,91 @@
+{
+  // "slider-layout#text-test": {
+  //   "title": "Slider home images full",
+  //   "props": {
+  //     "itemsPerPage": {
+  //       "desktop": 1,
+  //       "tablet": 1,
+  //       "phone": 1
+  //     },
+  //     "infinite": true,
+  //     "showNavigationArrows": "desktopOnly",
+  //     "blockClass": "carousel"
+  //   },
+  //   "children": [
+  //     "flex-layout.row#test__one--slider-home",
+  //     "image#example__3"
+  //   ]
+  // },
+
+  // "rich-text#1": {
+  //   "title": "Text one",
+  //   "props": {
+  //     "text": "Texto prueba slider"
+  //   }
+  // },
+  // "rich-text#2": {
+  //   "title": "Text two",
+  //   "props": {
+  //     "text": "Test2"
+  //   }
+  // },
+  // "rich-text#3": {
+  //   "title": "Text three",
+  //   "props": {
+  //     "text": "Test3"
+  //   }
+  // },
+  // "image#example__1": {
+  //   "title": "Image one",
+  //   "props": {
+  //     "src": "assets/img/image-1.jpg",
+  //     "maxHeight": 24
+  //   }
+  // },
+  // "image#example__2": {
+  //   "title": "Image two",
+  //   "props": {
+  //     "src": "assets/img/image-2.jpg",
+  //     "maxHeight": 24
+  //   }
+  // },
+  // "image#example__3": {
+  //   "title": "Image three",
+  //   "props": {
+  //     "src": "assets/img/image-3.jpg",
+  //     "maxHeight": 24
+  //   }
+  // },
+  // "flex-layout.row#test__one--slider-home": {
+  //   "title": "Slider row test one",
+  //   "children": [
+  //     "flex-layout.col#test__one--slider-home",
+  //     "flex-layout.col#test__two--slider-home",
+  //     "flex-layout.col#test__three--slider-home"
+  //   ]
+  // },
+  // "flex-layout.col#test__one--slider-home": {
+  //   "title": "Slider col test one",
+  //   "children": [
+  //     "rich-text#1",
+  //     "image#example__1"
+  //   ],
+  //   "props": {
+  //     "width": "80%"
+  //   }
+  // },
+  // "flex-layout.col#test__two--slider-home": {
+  //   "title": "Slider col test two",
+  //   "children": [
+  //     "rich-text#2",
+  //     "image#example__2"
+  //   ]
+  // },
+  // "flex-layout.col#test__three--slider-home": {
+  //   "title": "Slider col test three",
+  //   "children": [
+  //     "rich-text#3",
+  //     "image#example__3"
+  //   ]
+  // }
+}

@@ -1,0 +1,68 @@
+{
+  "list-context.image-list#logos": {
+    "title": "List logos for home",
+    "children": [
+      "slider-layout#logos-display"
+    ],
+    "props": {
+      "preload": true,
+      "images": [
+        {
+          "loading": "eager",
+          "image": "assets/img/toshiba.jpeg",
+          "description": "Toshiba Logo"
+        },
+        {
+          "loading": "lazy",
+          "image": "assets/img/patriot.png",
+          "description": "Patriot Logo"
+        },
+        { 
+          "loading": "lazy",
+          "image": "assets/img/amd.png",
+          "description": "Amd Logo"
+        },
+        {
+          "loading": "lazy",
+          "image": "assets/img/logo.webp",
+          "description": "Luoka Logo"
+        },
+        {
+          "loading": "lazy",
+          "image": "assets/img/toshiba.jpeg",
+          "description": "Toshiba Logo"
+        },
+        {
+          "loading": "lazy",
+          "image": "assets/img/patriot.png",
+          "description": "Patriot Logo"
+        },
+        {
+          "loading": "lazy",
+          "image": "assets/img/amd.png",
+          "description": "Amd Logo"
+        },
+        {
+          "loading": "lazy",
+          "image": "assets/img/logo.webp",
+          "description": "Luoka Logo"
+        }
+      ]
+    }
+  },
+ 
+  "slider-layout#logos-display": {
+    "title": "Slider home logos",
+    "props": {
+      "itemsPerPage": {
+        "desktop": 8,
+        "tablet": 8,
+        "phone": 8
+      },
+      "showPaginationDots": "never",
+      "showNavigationArrows": "never",
+      "infinite": false,
+      "blockClass": "logo-slider"
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "modal-trigger#example": {
+    "children": [
+      "rich-text#example", 
+      "modal-layout#example"
+    ]
+  },
+  "rich-text#example": {
+    "props": {
+      "text": "Click Aqui",
+      "blockClass": "modal-text"
+    }
+  },
+  "modal-layout#example": {
+    "children": [
+      "rich-text#modal-content"
+    ]
+  },
+  "rich-text#modal-content": {
+    "props": {
+      "text": "Hello Desde vitex io 😎"
+    }
+  }
+}

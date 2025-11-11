@@ -1,0 +1,202 @@
+{
+  "flex-layout.row#text__one--home": {
+    "children": [
+      // "flex-layout.col#text__one--home",
+      "flex-layout.col#text__two--home"
+    ],
+    "props": {
+      "blockClass": "title-row",
+      "fullWidth": true
+    }
+  },
+  // "flex-layout.col#text__one--home": {
+  //   "props": {
+  //     "width": "0%",
+  //     "itemsPerPage": {
+  //       "desktop": 6,
+  //       "tablet": 4,
+  //       "phone": 2
+  //     }
+  //   }
+  // },
+  "flex-layout.col#text__two--home": {
+    "children": [
+      "rich-text#categories-title",
+      "flex-layout.row#categories"
+    ],
+    "props": { 
+      "width": "100%"
+    }
+  },
+
+  "rich-text#categories-title": {
+    "props": {
+      "text": "Categorías",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "font": "t-heading-1",
+      "textColor": "c-on-emphasis",
+      "blockClass": "categories-title"
+    }
+  },
+
+  "flex-layout.row#categories": {
+    "children": [
+      "flex-layout.col#category-1",
+      "flex-layout.col#category-2",
+      "flex-layout.col#category-3",
+      "flex-layout.col#category-4",
+      "flex-layout.col#category-5",
+      "flex-layout.col#category-6"
+    ],
+    "props": {
+      "blockClass": "categories-row",
+      "colSizing": "auto",
+      "colJustify": "center",
+      "colGap": 7,
+      "preventHorizontalStretch": true
+    }
+  },
+
+  "flex-layout.col#category-1": {
+    "children": [
+      "image#category-1",
+      "rich-text#category-1"
+    ],
+    "props": {"blockClass": "category-item", "verticalAlign": "middle", "horizontalAlign": "center"}
+  },
+  "image#category-1": {
+    "props": {
+      "src": "assets/img/toshiba.jpeg",
+      "alt": "Procesadores",
+      "maxHeight": 80,
+      "blockClass": "category-image"
+    }
+  },
+  "rich-text#category-1": {
+    "props": {
+      "text": "Procesadores",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "blockClass": "category-description"
+    }
+  },
+
+  "flex-layout.col#category-2": {
+    "children": [
+      "image#category-2",
+      "rich-text#category-2"
+    ],
+    "props": {"blockClass": "category-item", "verticalAlign": "middle", "horizontalAlign": "center"}
+  },
+  "image#category-2": {
+    "props": {
+      "src": "assets/img/toshiba.jpeg",
+      "alt": "Boards",
+      "maxHeight": 80,
+      "blockClass": "category-image"
+    }
+  },
+  "rich-text#category-2": {
+    "props": {
+      "text": "Boards",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "blockClass": "category-description"
+    }
+  },
+
+  "flex-layout.col#category-3": {
+    "children": [
+      "image#category-3",
+      "rich-text#category-3"
+    ],
+    "props": {"blockClass": "category-item", "verticalAlign": "middle", "horizontalAlign": "center"}
+  },
+  "image#category-3": {
+    "props": {
+      "src": "assets/img/toshiba.jpeg",
+      "alt": "Ram",
+      "maxHeight": 80,
+      "blockClass": "category-image"
+    }
+  },
+  "rich-text#category-3": {
+    "props": {
+      "text": "Ram",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "blockClass": "category-description"
+    }
+  },
+
+  "flex-layout.col#category-4": {
+    "children": [
+      "image#category-4",
+      "rich-text#category-4"
+    ],
+    "props": {"blockClass": "category-item", "verticalAlign": "middle", "horizontalAlign": "center"}
+  },
+  "image#category-4": {
+    "props": {
+      "src": "assets/img/toshiba.jpeg",
+      "alt": "Almacenamiento",
+      "maxHeight": 80,
+      "blockClass": "category-image"
+    }
+  },
+  "rich-text#category-4": {
+    "props": {
+      "text": "Almacenamiento",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "blockClass": "category-description"  
+    }
+  },
+
+  "flex-layout.col#category-5": {
+    "children": [
+      "image#category-5",
+      "rich-text#category-5"
+    ],
+    "props": {"blockClass": "category-item", "verticalAlign": "middle", "horizontalAlign": "center"}
+  },
+  "image#category-5": {
+    "props": {
+      "src": "assets/img/toshiba.jpeg",
+      "alt": "Tarjetas de video",
+      "maxHeight": 80,
+      "blockClass": "category-image"
+    }
+  },
+  "rich-text#category-5": {
+    "props": {
+      "text": "Tarjetas de video",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "blockClass": "category-description"}
+  },
+
+  "flex-layout.col#category-6": {
+    "children": [
+      "image#category-6",
+      "rich-text#category-6"
+    ],
+    "props": {"blockClass": "category-item", "verticalAlign": "middle", "horizontalAlign": "center"}
+  },
+  "image#category-6": {
+    "props": {
+      "src": "assets/img/toshiba.jpeg",
+      "alt": "Fuentes",
+      "maxHeight": 80,
+      "blockClass": "category-image"
+    }
+  },
+  "rich-text#category-6": {
+    "props": {
+      "text": "Fuentes",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "blockClass": "category-description"}
+  }
+}

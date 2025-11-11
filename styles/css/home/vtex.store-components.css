@@ -1,0 +1,20 @@
+.infoCardContainer--category-item .infoCardHeadline {
+  color: #ffffff;
+  text-align: center;
+  margin-top: 5px; 
+  font-size: 14px;
+  white-space: normal; 
+  line-height: 1.2;
+}
+.imageElement--category-image {
+  border-radius: 20px; 
+  border: 2px solid red;
+}
+.searchBarContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.searchIcon {
+  font-size: 20px;
+}

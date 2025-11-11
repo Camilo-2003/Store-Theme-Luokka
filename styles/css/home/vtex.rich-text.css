@@ -1,0 +1,93 @@
+.container--categories-title {
+  color: rgb(255, 255, 255);
+  padding: 10px;
+  font-size: 25px;
+}
+.paragraph--category-description {
+  color: rgb(255, 255, 255);
+}
+.paragraph--header-text {
+  margin: 10px;
+}
+.paragraph--header-text:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+.heading-level-1 {
+  color: black;
+  font-size: 25px;
+}
+.paragraph--footer-text {
+  text-align: center;
+  color: gray;
+  font-size: 16px;
+  padding-top: 6px;
+  margin: 0;
+}
+.paragraph--featured-category {
+  color: gray;
+  font-size: 12px;
+  margin-bottom: 1px;
+  margin-top: -6px;
+  opacity: 0.7;
+}
+.wrapper--featured-description {
+  margin: -2px;
+  text-align: center;
+}
+.paragraph--featured-description {
+  color: black;
+  font-weight: 600;
+  font-size: 12.8px;
+}
+.wrapper--price {
+  margin: -30px;
+  /* margin: auto; */
+}
+.paragraph--price {
+  color: #c9591b;
+  font-size: 23px;
+  font-weight: 600;
+}
+.wrapper--buy-button {
+  margin: -2px;
+}
+.paragraph--buy-button {
+  color: #c9591b;
+  font-size: 13px;
+  font-weight: 600;
+  border: 1px solid #c9591b;
+  padding: 5px;
+  border-radius: 5px;
+}
+.paragraph--buy-button:hover {
+  color: black;
+  background-color: #c9591b;
+  border: 1px solid black;
+  cursor: pointer;
+}
+.container--modal-text {
+  margin-top: 11px;
+  margin-left: 10px;
+}
+.paragraph--modal-text {
+  margin: 0;
+  color: white;
+  background-color: #1116b9;
+  padding: 5px;
+  font-weight: bold;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.wrapper--text-in-DESKTOP {
+  color: #1b9a4b;
+}
+.wrapper--text-in-TABLET {
+  color: #c4cd1e;
+}
+.wrapper--text-in-MOBILE {
+  color: #c01313;
+}
+.wrapper--text-in-PHONE {
+  color: #1116b9;
+}
