@@ -93,7 +93,7 @@
   "rich-text#buy-1": {
     "props": {
       "text": "Añadir al Carrito",
-"blockClass": "buy-button"
+      "blockClass": "buy-button"
     }
   },
 
@@ -135,7 +135,7 @@
   "rich-text#buy-2": {
     "props": {
       "text": "Añadir al Carrito",
-"blockClass": "buy-button"
+      "blockClass": "buy-button"
     }
   },
 
@@ -177,7 +177,7 @@
   "rich-text#buy-3": {
     "props": {
       "text": "Añadir al Carrito",
-"blockClass": "buy-button"
+      "blockClass": "buy-button"
     }
   },
 
@@ -220,7 +220,7 @@
   "rich-text#buy-4": {
     "props": {
       "text": "Añadir al Carrito",
-"blockClass": "buy-button"
+      "blockClass": "buy-button"
     }
   },
 
@@ -263,7 +263,7 @@
   "rich-text#buy-5": {
     "props": {
       "text": "Añadir al Carrito",
-"blockClass": "buy-button"
+      "blockClass": "buy-button"
     }
   },
 
@@ -344,7 +344,7 @@
   "rich-text#buy-7": {
     "props": {
       "text": "Añadir al Carrito",
-"blockClass": "buy-button"
+      "blockClass": "buy-button"
     }
   },
 
@@ -386,7 +386,7 @@
   "rich-text#buy-8": {
     "props": {
       "text": "Añadir al Carrito",
-"blockClass": "buy-button"
+      "blockClass": "buy-button"
     }
   },
 
@@ -428,7 +428,7 @@
   "rich-text#buy-9": {
     "props": {
       "text": "Añadir al Carrito",
-"blockClass": "buy-button"
+      "blockClass": "buy-button"
     }
   },
 

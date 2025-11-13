@@ -1,0 +1,4 @@
+.socialNetworkImage--footer-social-icons:hover {
+  transform: rotate(50deg);
+  transition: transform 1s ease-in-out;
+}

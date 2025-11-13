@@ -1,0 +1,42 @@
+{
+  "sticky-layout#4-desktop": {
+    "title": "Mega menu desktop",
+    "children": [
+      "flex-layout.row#row__trigger-desktop", 
+      "flex-layout.row#mega-menu"
+    ]
+  },
+  "flex-layout.row#row__trigger-desktop": {
+    "title": "Row Mega menu desktop",
+    "children": [
+      "flex-layout.col#trigger-mega-menu"
+    ]
+  },
+ "flex-layout.row#mega-menu": {
+    "title": "Row Mega menu desktop",
+    "children": [
+      "mega-menu#desktop"
+    ]
+  },
+  "mega-menu#desktop": {
+    "title": "Components Mega menu desktop",
+    "props": {
+      "openOnly": "horizontal"
+    }
+  },
+  "flex-layout.col#trigger-mega-menu": {
+    "title": "Col trigger mega menu desktop",
+    "props": {
+      "verticalAlign": "middle"
+    },
+    "children": [
+      "mega-menu-trigger-btn"
+    ]
+  },
+  "mega-menu-trigger-btn": {
+    "title": "Trigger Mega menu desktop",
+    "props": {
+      "Drawer": "drawer"
+    }
+  }
+}

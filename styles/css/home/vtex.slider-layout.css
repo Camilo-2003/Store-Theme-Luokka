@@ -1,6 +1,5 @@
 .sliderLayoutContainer--home-slider-dots {
   padding: 80px 20px 30px 20px !important;
-  /* background-color: #c9591b; */
   background-image: url("assets/background/07-2.webp");
   background-size: cover;
   background-repeat: no-repeat;
@@ -67,7 +66,7 @@
   padding: 28px 0;
   background-color: white;
 }
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   .sliderTrack--logo-slider {
     display: grid;
     grid-template-columns: repeat(3, 1fr);

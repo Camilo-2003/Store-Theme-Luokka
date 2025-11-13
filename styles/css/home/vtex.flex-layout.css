@@ -49,6 +49,7 @@
 .flexCol--footer-content {
   background-color: #000000;
   padding: 25px;
+  border-top: 2px solid #c9591b;
 }
 @media (max-width: 768px) {
   .flexRowContent--categories-row {
@@ -56,14 +57,11 @@
     grid-template-columns: repeat(2, 1fr);
     gap: 10px;
   }
-  /* .flexRow--featured-row {
+}
+@media (max-width: 600px) {
+  .flexRowContent--featured-grid-row  {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 10px;
-  } */
-  /* .flexCol--static-shelf-item {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 10px;
-  } */
+  }
 }

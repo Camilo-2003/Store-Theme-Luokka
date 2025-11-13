@@ -1,0 +1,33 @@
+{
+  "sticky-layout#mobile": {
+    "props": {
+      "blockClass": "sticky-header"
+    },
+    "children": [
+      "flex-layout.row#mobile"
+    ] 
+  },
+  "flex-layout.row#mobile": {
+    "children": [
+      "logo",
+      "flex-layout.col#spacer",
+      "minicart.v2",
+      "drawer"
+    ],
+    "props": {
+      "blockClass": "main-header-mobile",
+      "preventHorizontalStretch": true,
+      "preserveLayoutOnMobile": true,
+      "fullWidth": true
+    }
+  },
+  "drawer": {
+    "children": [
+      "vtex.menu@2.x:menu#websites",
+      "search-bar"
+    ],
+    "props": {
+      "blockClass": "drawer"
+    }
+  }
+}

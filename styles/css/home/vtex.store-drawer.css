@@ -4,10 +4,17 @@
   align-items: center;
 }
 .menuIcon--drawer {
-  color: #c9591b;
+  color: #c9591b !important;
   font-size: 30px;
 }
-.cartIcon {
-  color: #c9591b;
-  font-size: 30px;
+.childrenContainer--drawer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.closeIcon--drawer {
+  color: #c9591b !important;
+}
+.closeIconContainer--drawer {
+  justify-content: right;
 }

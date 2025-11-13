@@ -1,0 +1,16 @@
+{ 
+ "flex-layout.col#spacer": {
+    "props": {
+      "width": "grow"
+    }
+  },
+  "logo": {
+      "props": {
+      "title": "Logo",
+      "href": "/",
+      "url": "assets/img/logo.webp",
+      "width": "170",
+      "height": "80"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "login": {
+    "props": {
+      "emailAndPasswordTitle": "LOG-IN",
+      "accessCodeTitle": "Ingresa tu email aqui👇",
+      "emailPlaceholder": "e-mail",
+      "passwordPlaceholder": "password",
+      "showPasswordVerificationIntoTooltip": true
+      // "logInButtonBehavior": "link",
+      // "accountOptionsButtonBehavior": "link"
+    }
+  }
+}

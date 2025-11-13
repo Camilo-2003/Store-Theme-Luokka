@@ -1,0 +1,165 @@
+{
+  "vtex.menu@2.x:menu#websites": {
+    "title": "Menu Desktop",
+    "children": [
+      "menu-item#home",
+      "menu-item#sobre__nosotros",
+      "menu-item#store"
+    ]
+  },
+  "menu-item#home": {
+    "props": {
+      "blockClass": "store",
+      "id": "menu-item-home",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "https://www.google.com",
+        "noFollow": false,
+        "tagTitle": "home",
+        "text": "Home" 
+      }
+    }
+  },
+  
+  "menu-item#sobre__nosotros": {
+    "props": {
+      "blockClass": "store",
+      "id": "menu-item-sobre__nosotros",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "sobre-nosotros",
+        "text": "Sobre nosotros" 
+      }
+    }
+  },
+
+  "menu-item#store": {
+    "props": {
+      "blockClass": "store",
+      "id": "menu-item-store",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "tienda",
+        "text": "Tienda ▽"      
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#category"
+    ]
+  },
+  "vtex.menu@2.x:submenu#category": {
+    "title": "Submenu category Desktop",
+    "children": [
+      "vtex.menu@2.x:menu#sub__menu--category"
+    ]
+  },
+  "vtex.menu@2.x:menu#sub__menu--category": {
+    "title": "Menu category Desktop",
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "subMenuContainer"
+    },
+    "children": [
+      "menu-item#category__procesadores",
+      "menu-item#category__motherboards",
+      "menu-item#category__almacenamiento",
+      "menu-item#category__ram",
+      "menu-item#category__tarjetas-de-video",
+      "menu-item#category__fuentes"
+    ]
+  },
+  "menu-item#category__procesadores": {
+    "props": {
+      "id": "menu-item-procesadores",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "procesadores",
+        "text": "Procesadores"      
+      }
+    }
+  },
+  "menu-item#category__motherboards": {
+    "props": {
+      "id": "menu-item-motherboards",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "motherboards",
+        "text": "Motherboards"
+      }
+    }
+  },
+  "menu-item#category__almacenamiento": {
+    "props": {
+      "id": "menu-item-almacenamiento",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "almacenamiento",
+        "text": "Almacenamiento"
+      }
+    }
+  },
+  "menu-item#category__ram": {
+    "props": {
+      "id": "menu-item-ram",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "ram",
+        "text": "Ram"
+      }
+    }
+  },
+  "menu-item#category__tarjetas-de-video": {
+    "props": {
+      "id": "menu-item-tarjetas-de-video",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "tarjetas de video",
+        "text": "Tarjetas de video"
+      }
+    }
+  },
+  "menu-item#category__fuentes": {
+    "props": {
+      "id": "menu-item-fuentes",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "fuentes",
+        "text": "Fuentes"
+      }
+    }
+  }
+}

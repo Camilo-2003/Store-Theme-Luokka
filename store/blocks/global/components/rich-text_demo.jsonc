@@ -1,7 +1,6 @@
 {
   "flex-layout.row#text__one--home": {
     "children": [
-      // "flex-layout.col#text__one--home",
       "flex-layout.col#text__two--home"
     ],
     "props": {
@@ -9,16 +8,6 @@
       "fullWidth": true
     }
   },
-  // "flex-layout.col#text__one--home": {
-  //   "props": {
-  //     "width": "0%",
-  //     "itemsPerPage": {
-  //       "desktop": 6,
-  //       "tablet": 4,
-  //       "phone": 2
-  //     }
-  //   }
-  // },
   "flex-layout.col#text__two--home": {
     "children": [
       "rich-text#categories-title",
@@ -63,7 +52,10 @@
       "image#category-1",
       "rich-text#category-1"
     ],
-    "props": {"blockClass": "category-item", "verticalAlign": "middle", "horizontalAlign": "center"}
+    "props": {
+      "blockClass": "category-item", 
+      "verticalAlign": "middle", 
+      "horizontalAlign": "center"}
   },
   "image#category-1": {
     "props": {
@@ -87,7 +79,11 @@
       "image#category-2",
       "rich-text#category-2"
     ],
-    "props": {"blockClass": "category-item", "verticalAlign": "middle", "horizontalAlign": "center"}
+    "props": {
+      "blockClass": "category-item", 
+      "verticalAlign": "middle", 
+      "horizontalAlign": "center"
+    }
   },
   "image#category-2": {
     "props": {
@@ -111,7 +107,10 @@
       "image#category-3",
       "rich-text#category-3"
     ],
-    "props": {"blockClass": "category-item", "verticalAlign": "middle", "horizontalAlign": "center"}
+    "props": {
+      "blockClass": "category-item", 
+      "verticalAlign": "middle", 
+      "horizontalAlign": "center"}
   },
   "image#category-3": {
     "props": {
@@ -135,7 +134,10 @@
       "image#category-4",
       "rich-text#category-4"
     ],
-    "props": {"blockClass": "category-item", "verticalAlign": "middle", "horizontalAlign": "center"}
+    "props": {
+      "blockClass": "category-item", 
+      "verticalAlign": "middle", 
+      "horizontalAlign": "center"}
   },
   "image#category-4": {
     "props": {
@@ -159,7 +161,11 @@
       "image#category-5",
       "rich-text#category-5"
     ],
-    "props": {"blockClass": "category-item", "verticalAlign": "middle", "horizontalAlign": "center"}
+    "props": {
+      "blockClass": "category-item", 
+      "verticalAlign": "middle", 
+      "horizontalAlign": "center"
+    }
   },
   "image#category-5": {
     "props": {
@@ -174,7 +180,8 @@
       "text": "Tarjetas de video",
       "textAlignment": "CENTER",
       "textPosition": "CENTER",
-      "blockClass": "category-description"}
+      "blockClass": "category-description"
+    }
   },
 
   "flex-layout.col#category-6": {
@@ -182,7 +189,11 @@
       "image#category-6",
       "rich-text#category-6"
     ],
-    "props": {"blockClass": "category-item", "verticalAlign": "middle", "horizontalAlign": "center"}
+    "props": {
+      "blockClass": "category-item", 
+      "verticalAlign": "middle", 
+      "horizontalAlign": "center"
+    }
   },
   "image#category-6": {
     "props": {
@@ -197,6 +208,7 @@
       "text": "Fuentes",
       "textAlignment": "CENTER",
       "textPosition": "CENTER",
-      "blockClass": "category-description"}
+      "blockClass": "category-description"
+    }
   }
 }
