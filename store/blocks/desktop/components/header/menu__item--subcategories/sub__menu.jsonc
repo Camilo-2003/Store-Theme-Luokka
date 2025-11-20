@@ -1,84 +1,84 @@
 {
-  "menu-item#sub__category-apparel": {
-    // "title": "Sub menu item of categories desktop",
-    "props": {
-      "id": "menu-item-sub__category-apparel",
-      "type": "custom",
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "#",
-        "noFollow": false,
-        "tagTitle": "Apparel & Accessories",
-        "text": "Apparel & Accessories"
-      }
-    },
-    "blocks": ["vtex.menu@2.x:submenu#sub__category-apparel"]
-  },
-  "vtex.menu@2.x:submenu#sub__category-apparel": {
-    "title": "Sub menu of categories desktop",
-    "props": {
-      "width": "auto"
-    },
-    "children": ["vtex.menu@2.x:menu#sub__category-apparel"]
-  },
-  "vtex.menu@2.x:menu#sub__category-apparel": {
-    "title": "Menu of categories desktop",
-    "props": {
-      "orientation": "vertical"
-    },
-    "children": [
-      "menu-item#sub__category-apparel-clothing",
-      "menu-item#sub__category-apparel-accessories",
-      "menu-item#sub__category-apparel-eyeglasses"
-    ]
-  },
-  "menu-item#sub__category-apparel-clothing": {
-    // "title": "Menu item of category desktop",
-    "props": {
-      "id": "menu-item-sub__category-apparel-clothing",
-      "type": "custom",
-      // "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "#",
-        "noFollow": false,
-        "tagTitle": "Clothing",
-        "text": "Clothing"
-      }
-    }
-  },
-  "menu-item#sub__category-apparel-accessories": {
-    // "title": "Menu item of category desktop",
-    "props": {
-      "id": "menu-item-sub__category-apparel-accessories",
-      "type": "custom",
-      // "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "#",
-        "noFollow": false,
-        "tagTitle": "accessories",
-        "text": "Accessories"
-      }
-    }
-  },
-  "menu-item#sub__category-apparel-eyeglasses": {
-    // "title": "Menu item of category desktop",
-    "props": {
-      "id": "menu-item-sub__category-apparel-eyeglasses",
-      "type": "custom",
-      // "IconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "#",
-        "noFollow": false,
-        "tagTitle": "eyeglasses",
-        "text": "Eyeglasses"
-      }
-    }
-  }
+  // "menu-item#sub__category-apparel": {
+  //   // "title": "Sub menu item of categories desktop",
+  //   "props": {
+  //     "id": "menu-item-sub__category-apparel",
+  //     "type": "custom",
+  //     "highlight": false,
+  //     "itemProps": {
+  //       "type": "internal",
+  //       "href": "#",
+  //       "noFollow": false,
+  //       "tagTitle": "Apparel & Accessories",
+  //       "text": "Apparel & Accessories"
+  //     }
+  //   },
+  //   "blocks": ["vtex.menu@2.x:submenu#sub__category-apparel"]
+  // },
+  // "vtex.menu@2.x:submenu#sub__category-apparel": {
+  //   "title": "Sub menu of categories desktop",
+  //   "props": {
+  //     "width": "auto"
+  //   },
+  //   "children": ["vtex.menu@2.x:menu#sub__category-apparel"]
+  // },
+  // "vtex.menu@2.x:menu#sub__category-apparel": {
+  //   "title": "Menu of categories desktop",
+  //   "props": {
+  //     "orientation": "vertical"
+  //   },
+  //   "children": [
+  //     "menu-item#sub__category-apparel-clothing",
+  //     "menu-item#sub__category-apparel-accessories",
+  //     "menu-item#sub__category-apparel-eyeglasses"
+  //   ]
+  // },
+  // "menu-item#sub__category-apparel-clothing": {
+  //   // "title": "Menu item of category desktop",
+  //   "props": {
+  //     "id": "menu-item-sub__category-apparel-clothing",
+  //     "type": "custom",
+  //     // "iconId": null,
+  //     "highlight": false,
+  //     "itemProps": {
+  //       "type": "internal",
+  //       "href": "#",
+  //       "noFollow": false,
+  //       "tagTitle": "Clothing",
+  //       "text": "Clothing"
+  //     }
+  //   }
+  // },
+  // "menu-item#sub__category-apparel-accessories": {
+  //   // "title": "Menu item of category desktop",
+  //   "props": {
+  //     "id": "menu-item-sub__category-apparel-accessories",
+  //     "type": "custom",
+  //     // "iconId": null,
+  //     "highlight": false,
+  //     "itemProps": {
+  //       "type": "internal",
+  //       "href": "#",
+  //       "noFollow": false,
+  //       "tagTitle": "accessories",
+  //       "text": "Accessories"
+  //     }
+  //   }
+  // },
+  // "menu-item#sub__category-apparel-eyeglasses": {
+  //   // "title": "Menu item of category desktop",
+  //   "props": {
+  //     "id": "menu-item-sub__category-apparel-eyeglasses",
+  //     "type": "custom",
+  //     // "IconId": null,
+  //     "highlight": false,
+  //     "itemProps": {
+  //       "type": "internal",
+  //       "href": "#",
+  //       "noFollow": false,
+  //       "tagTitle": "eyeglasses",
+  //       "text": "Eyeglasses"
+  //     }
+  //   }
+  // }
 }

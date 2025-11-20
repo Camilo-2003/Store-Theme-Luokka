@@ -1,0 +1,88 @@
+{
+  "flex-layout.row#product-breadcrumb": {
+    "title": "Global product breadcrumb",
+    "props": {
+      "marginTop": 4
+    },
+    "children": [
+      "breadcrumb"
+    ]
+  },
+  "breadcrumb": {
+    "title": "Global breadcrumb",
+    "props": {
+      "showOnMobile": true
+    } 
+  },
+
+  "flex-layout.row#product-main": {
+    "title": "Global product main",
+    "props": {
+      "colGap": 7,
+      "rowGap": 7,
+      "marginTop": 4,
+      "marginBottom": 7,
+      "paddingTop": 7,
+      "paddingBottom": 7   
+    },
+    "children": [
+      "flex-layout.col#product__image",
+      "flex-layout.col#product__information"
+    ]
+  },
+  "flex-layout.col#product__image": {
+    "title": "Global Col product image",
+    "props": {
+      "width": "60%",
+      "rowGap": 0
+    },
+    "children": [
+      "product-images#global__pdp"
+    ]
+  },
+  "product-images#global__pdp": {
+    "title": "Global product images",
+    "props": {
+      "displayThumbnailsArrows": true
+    }
+  },
+
+  "flex-layout.col#product__information": {
+    "title": "Global Col product information",
+    "props": {
+      "preventVerticalStretch": true,
+      "rowGap": 0
+    },
+    "children": [
+      "vtex.store-components:product-name#global__product--name",
+      "product-price",
+      "product-separator",
+      "product-quantity",
+      "product-identifier.product",
+      "sku-selector",
+      "flex-layout.row",
+      "shipping-simulator",
+      "share"
+    ]
+  },
+  "vtex.store-components:product-name#global__product--name": {
+    "title": "Global product name of PDP",
+    "props": {
+      "showSku": true,
+      "showBrandName": true
+    }
+  },
+  "shelf.relatedProducts": {
+    "blocks": [
+      "product-summary.shelf"
+    ],
+    "props": {
+      "recommendation": "view",
+      "productList": {
+        "titleText": "Productos relacionados",  
+          "itemsPerPage": 3
+      }
+    }
+  }
+
+}

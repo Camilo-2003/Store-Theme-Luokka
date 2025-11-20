@@ -1,0 +1,23 @@
+{
+  "flex-layout.row#footer-container--mobile": {
+    "children": [
+      "flex-layout.col#footer-content--mobile"
+    ],
+    "props": {
+      "blockClass": "footer-container",
+      "fullWidth": true
+    }
+  },
+  "flex-layout.col#footer-content--mobile": {
+    "children": [
+      "social-networks#footer",
+      "rich-text#direccion",
+      "rich-text#empresa"
+      // "accepted-payment-methods"
+      // "powered-by"
+    ],
+    "props": {
+      "blockClass": "footer-content"
+    }
+  }
+}  

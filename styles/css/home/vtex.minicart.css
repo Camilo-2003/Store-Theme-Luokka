@@ -1,0 +1,11 @@
+.closeIconContainer::before {
+  content: "Carrito de compra";
+  font-size: 15px;
+  margin: 15px 10px;
+}
+.closeIconButton {
+  margin: 7px 1px 0px auto;
+  background: #AA4418;
+  padding: 7px 9px !important;
+  border-radius: 1px;
+}

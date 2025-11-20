@@ -1,0 +1,398 @@
+{
+  "store.custom#fuentes": {
+    "title": "Page of fuentes",
+    "children": [
+      "flex-layout.row#page__fuentes",
+      "flex-layout.row#contenido__category-fuentes"
+    ]
+  },
+
+  "flex-layout.row#page__fuentes": {
+    "title": "Row Page of fuentes",
+    "children": [
+      "rich-text#fuentes--text"
+    ]
+  },
+
+  "rich-text#fuentes--text": {
+    "title": "Text page of fuentes",
+    "props": {
+      "text": "Fuentes",
+      "blockClass": "view__title-category"
+    }
+  },
+  "flex-layout.row#contenido__category-fuentes": {
+    "title": "Row Contenido of tarjetas de video",
+    "children": [
+      "flex-layout.col#fuentes"
+    ],
+    "props": {
+      "blockClass": "contenido__tarjeta"
+    }
+  },
+
+  
+  "flex-layout.col#fuentes": {
+    "children": [
+      "flex-layout.row#fuente__1",
+      "flex-layout.row#fuente__2"
+    ],
+    "props": {
+      "blockClass": "col__tarjetas"
+    }
+  },
+  "flex-layout.row#fuente__1": {
+    "children": [
+      "flex-layout.col#fuente-1",
+      "flex-layout.col#fuente-2",
+      "flex-layout.col#fuente-3",
+      "flex-layout.col#fuente-4"
+    ]
+  },
+
+  "flex-layout.col#fuente-1": {
+    "children": [
+      "image#fuente-1",
+      "rich-text#fuente__title-1",
+      "rich-text#descripcion__fuente-1",
+      "rich-text#precio__fuente-1",
+      "rich-text#fuente__button-1"
+    ],
+    "props": {
+      "blockClass": "static-shelf-item"
+    }
+  },
+  
+  "image#fuente-1": {
+    "props": {
+      "src": "assets/products/fuentes/f-1.webp"
+    }
+  },
+  "rich-text#fuente__title-1": {
+    "props": {
+      "text": "Fuentes",
+      "blockClass": "featured-category"
+    }
+  },
+    "rich-text#descripcion__fuente-1": {
+    "props": {
+      "text": "Fuente Gigabyte 850W 80 Plus Gold White Edition Modular",
+      "blockClass": "featured-description"
+    }
+  },
+  "rich-text#precio__fuente-1": {
+    "props": {
+      "text": "$ 532.000",
+      "blockClass": "price"
+    }
+  },
+  "rich-text#fuente__button-1": {
+    "props": {
+      "text": "Añadir al carrito",
+      "blockClass": "buy-button"
+    }
+  },
+  "flex-layout.col#fuente-2": {
+    "children": [
+      "image#fuente-2",
+      "rich-text#fuente__title-2",
+      "rich-text#descripcion__fuente-2",
+      "rich-text#precio__fuente-2",
+      "rich-text#fuente__button-2"
+    ],
+    "props": {
+      "blockClass": "static-shelf-item"
+    }
+  },
+  
+  "image#fuente-2": {
+    "props": {
+      "src": "assets/products/fuentes/f-2.webp"
+    }
+  },
+  "rich-text#fuente__title-2": {
+    "props": {
+      "text": "Fuentes",
+      "blockClass": "featured-category"
+    }
+  },
+    "rich-text#descripcion__fuente-2": {
+    "props": {
+      "text": "Fuente Asrock 1000W Gold Steel Leg Full Modular",
+      "blockClass": "featured-description"
+    }
+  },
+  "rich-text#precio__fuente-2": {
+    "props": {
+      "text": "$ 717.000",
+      "blockClass": "price"
+    }
+  },
+  
+  "rich-text#fuente__button-2": {
+    "props": {
+      "text": "Añadir al carrito",
+      "blockClass": "buy-button"
+    }
+  },
+  "flex-layout.col#fuente-3": {
+     "children": [
+      "image#fuente-3",
+      "rich-text#fuente__title-3",
+      "rich-text#descripcion__fuente-3",
+      "rich-text#precio__fuente-3",
+      "rich-text#fuente__button-3"
+    ],
+    "props": {
+      "blockClass": "static-shelf-item"
+    }
+  },
+  
+  "image#fuente-3": {
+    "props": {
+      "src": "assets/products/fuentes/f-3.webp"
+    }
+  },
+  "rich-text#fuente__title-3": {
+    "props": {
+      "text": "Fuentes",
+      "blockClass": "featured-category"
+    }
+  },
+    "rich-text#descripcion__fuente-3": {
+    "props": {
+      "text": "Fuente Asrock 650W Bronze",
+      "blockClass": "featured-description"
+    }
+  },
+  "rich-text#precio__fuente-3": {
+    "props": {
+      "text": "$ 293.000",
+      "blockClass": "price"
+    }
+  },
+  "rich-text#fuente__button-3": {
+    "props": {
+      "text": "Añadir al carrito",
+      "blockClass": "buy-button"
+    }
+  },
+    "flex-layout.col#fuente-4": {
+     "children": [
+      "image#fuente-4",
+      "rich-text#fuente__title-4",
+      "rich-text#descripcion__fuente-4",
+      "rich-text#precio__fuente-4",
+      "rich-text#fuente__button-4"
+    ],
+    "props": {
+      "blockClass": "static-shelf-item"
+    }
+  },
+  
+  "image#fuente-4": {
+    "props": {
+      "src": "assets/products/fuentes/f-4.webp"
+    }
+  },
+  "rich-text#fuente__title-4": {
+    "props": {
+      "text": "Fuentes",
+      "blockClass": "featured-category"
+    }
+  },
+    "rich-text#descripcion__fuente-4": {
+    "props": {
+      "text": "Fuente Asrock 550W Bronze",
+      "blockClass": "featured-description"
+    }
+  },
+  "rich-text#precio__fuente-4": {
+    "props": {
+      "text": "$ 239.000",
+      "blockClass": "price"
+    }
+  },
+    "rich-text#fuente__button-4": {
+    "props": {
+      "text": "Añadir al carrito",
+      "blockClass": "buy-button"
+    }
+  },
+    "flex-layout.row#fuente__2": {
+    "children": [
+      "flex-layout.col#fuente-5",
+      "flex-layout.col#fuente-6",
+      "flex-layout.col#fuente-7",
+      "flex-layout.col#fuente-8"
+    ]
+  },
+  "flex-layout.col#fuente-5": {
+     "children": [
+      "image#fuente-5",
+      "rich-text#fuente__title-5",
+      "rich-text#descripcion__fuente-5",
+      "rich-text#precio__fuente-5",
+      "rich-text#fuente__button-5"
+    ],
+    "props": {
+      "blockClass": "static-shelf-item"
+    }
+  },
+  "image#fuente-5": {
+    "props": {
+      "src": "assets/products/fuentes/f-5.webp"
+    }
+  },
+  "rich-text#fuente__title-5": {
+    "props": {
+      "text": "Fuentes",
+      "blockClass": "featured-category"
+    }
+  },
+    "rich-text#descripcion__fuente-5": {
+    "props": {
+      "text": "Fuente Asrock 850W Gold Steel Leg Full Modular",
+      "blockClass": "featured-description"
+    }
+  },
+  "rich-text#precio__fuente-5": {
+    "props": {
+      "text": "$ 532.000",
+      "blockClass": "price"
+    }
+  },
+  "rich-text#fuente__button-5": {
+    "props": {
+      "text": "Añadir al carrito",
+      "blockClass": "buy-button"
+    }
+  },
+  "flex-layout.col#fuente-6": {
+    "children": [
+      "image#fuente-6",
+      "rich-text#fuente__title-6",
+      "rich-text#descripcion__fuente-6",
+      "rich-text#precio__fuente-6",
+      "rich-text#fuente__button-6"
+    ],
+    "props": {
+      "blockClass": "static-shelf-item"
+    }
+  },
+  
+  "image#fuente-6": {
+    "props": {
+      "src": "assets/products/fuentes/f-6.webp"
+    }
+  },
+  "rich-text#fuente__title-6": {
+    "props": {
+      "text": "Fuentes",
+      "blockClass": "featured-category"
+    }
+  },
+    "rich-text#descripcion__fuente-6": {
+    "props": {
+      "text": "Fuente Asrock 750W Gold Steel Leg Full Modular",
+      "blockClass": "featured-description"
+    }
+  },
+  "rich-text#precio__fuente-6": {
+    "props": {
+      "text": "$ 445.000",
+      "blockClass": "price"
+    }
+  },
+  "rich-text#fuente__button-6": {
+    "props": {
+      "text": "Añadir al carrito",
+      "blockClass": "buy-button"
+    }
+  },
+  "flex-layout.col#fuente-7": {
+     "children": [
+      "image#fuente-7",
+      "rich-text#fuente__title-7",
+      "rich-text#descripcion__fuente-7",
+      "rich-text#precio__fuente-7",
+      "rich-text#fuente__button-7"
+    ],
+    "props": {
+      "blockClass": "static-shelf-item"
+    }
+  },
+  
+  "image#fuente-7": {
+    "props": {
+      "src": "assets/products/fuentes/f-7.webp"
+    }
+  },
+  "rich-text#fuente__title-7": {
+    "props": {
+      "text": "Fuentes",
+      "blockClass": "featured-category"
+    }
+  },
+    "rich-text#descripcion__fuente-7": {
+    "props": {
+      "text": "Fuente Corsair 850W Gold Modular",
+      "blockClass": "featured-description"
+    }
+  },
+  "rich-text#precio__fuente-7": {
+    "props": {
+      "text": "$ 603.000",
+      "blockClass": "price"
+    }
+  },
+  "rich-text#fuente__button-7": {
+    "props": {
+      "text": "Añadir al carrito",
+      "blockClass": "buy-button"
+    }
+  },
+    "flex-layout.col#fuente-8": {
+     "children": [
+      "image#fuente-8",
+      "rich-text#fuente__title-8",
+      "rich-text#descripcion__fuente-8",
+      "rich-text#precio__fuente-8",
+      "rich-text#fuente__button-8"
+    ],
+    "props": {
+      "blockClass": "static-shelf-item"
+    }
+  },
+  
+  "image#fuente-8": {
+    "props": {
+      "src": "assets/products/fuentes/f-7.webp"
+    }
+  },
+  "rich-text#fuente__title-8": {
+    "props": {
+      "text": "Fuentes",
+      "blockClass": "featured-category"
+    }
+  },
+  "rich-text#descripcion__fuente-8": {
+    "props": {
+      "text": "Fuente Corsair 850W Gold Modular",
+      "blockClass": "featured-description"
+    }
+  },
+  "rich-text#precio__fuente-8": {
+    "props": {
+      "text": "$ 603.000",
+      "blockClass": "price"
+    }
+  },
+  "rich-text#fuente__button-8": {
+    "props": {
+      "text": "Añadir al carrito",
+      "blockClass": "buy-button"
+    }
+  }
+
+}

@@ -101,7 +101,7 @@
   },
   "rich-text#minicart-default-empty-state": {
     "props": {
-      "text": "El carrito está vacío"
+      "text": "Tu carrito está vacío."
     }
   }
 }

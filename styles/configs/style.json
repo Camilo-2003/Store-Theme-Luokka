@@ -81,6 +81,7 @@
       "base": "#ffffff",
       "base--inverted": "#03044e",
       "action-primary": "#0F3E99",
+      "color-sobre__nosotros": "#3a3a3a",
       "action-secondary": "#eef3f7",
       "emphasis": "#f71963",
       "disabled": "#f2f4f5",

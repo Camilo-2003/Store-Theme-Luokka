@@ -1,0 +1,395 @@
+{
+  "store.custom#motherboards": {
+    "title": "Page of motherboards",
+    "children": [
+      "flex-layout.row#page__motherboards",
+      "flex-layout.row#contenido__category-motherboards"
+    ]
+  },
+
+  "flex-layout.row#page__motherboards": {
+    "title": "Row Page of motherboards",
+    "children": ["rich-text#motherboards--text"],
+    "props": {
+      "blockClass": "view__container-title"
+    }
+  },
+
+  "rich-text#motherboards--text": {
+    "title": "Text page of motherboards",
+    "props": {
+      "text": "Boards",
+      "blockClass": "view__title-category"
+    }
+  },
+  "flex-layout.row#contenido__category-motherboards": {
+    "title": "Row Contenido of motherboards",
+    "children": ["flex-layout.col#motherboards"],
+    "props": {
+      "blockClass": "contenido__tarjeta"
+    }
+  },
+
+  "flex-layout.col#motherboards": {
+    "children": [
+      "flex-layout.row#motherboards__1",
+      "flex-layout.row#motherboards__2"
+    ],
+    "props": {
+      "blockClass": "col__tarjetas"
+    }
+  },
+  "flex-layout.row#motherboards__1": {
+    "children": [
+      "flex-layout.col#motherboards-1",
+      "flex-layout.col#motherboards-2",
+      "flex-layout.col#motherboards-3",
+      "flex-layout.col#motherboards-4"
+    ]
+  },
+
+  "flex-layout.col#motherboards-1": {
+    "children": [
+      "image#motherboard-1",
+      "rich-text#motherboard__title-1",
+      "rich-text#descripcion__motherboard-1",
+      "rich-text#precio__motherboard-1",
+      "rich-text#motherboard__button-1"
+    ],
+    "props": {
+      "blockClass": "static-shelf-item"
+    }
+  },
+
+  "image#motherboard-1": {
+    "props": {
+      "src": "assets/products/motherboards/m-1.webp"
+    }
+  },
+  "rich-text#motherboard__title-1": {
+    "props": {
+      "text": "Asrock",
+      "blockClass": "featured-category"
+    }
+  },
+  "rich-text#descripcion__motherboard-1": {
+    "props": {
+      "text": "Board Asrock AMD X870E Taichi Lite AM5 ATX DDR5",
+      "blockClass": "featured-description"
+    }
+  },
+  "rich-text#precio__motherboard-1": {
+    "props": {
+      "text": "$ 1.902.000",
+      "blockClass": "price"
+    }
+  },
+  "rich-text#motherboard__button-1": {
+    "props": {
+      "text": "Añadir al carrito",
+      "blockClass": "buy-button"
+    }
+  },
+  "flex-layout.col#motherboards-2": {
+    "children": [
+      "image#motherboard-2",
+      "rich-text#motherboard__title-2",
+      "rich-text#descripcion__motherboard-2",
+      "rich-text#precio__motherboard-2",
+      "rich-text#motherboard__button-2"
+    ],
+    "props": {
+      "blockClass": "static-shelf-item"
+    }
+  },
+
+  "image#motherboard-2": {
+    "props": {
+      "src": "assets/products/motherboards/m-2.webp"
+    }
+  },
+  "rich-text#motherboard__title-2": {
+    "props": {
+      "text": "Asrock",
+      "blockClass": "featured-category"
+    }
+  },
+  "rich-text#descripcion__motherboard-2": {
+    "props": {
+      "text": "Board Asrock AMD X870E Nova Wifi AM5 ATX DDR5",
+      "blockClass": "featured-description"
+    }
+  },
+  "rich-text#precio__motherboard-2": {
+    "props": {
+      "text": "$ 1.706.000",
+      "blockClass": "price"
+    }
+  },
+
+  "rich-text#motherboard__button-2": {
+    "props": {
+      "text": "Añadir al carrito",
+      "blockClass": "buy-button"
+    }
+  },
+  "flex-layout.col#motherboards-3": {
+    "children": [
+      "image#motherboard-3",
+      "rich-text#motherboard__title-3",
+      "rich-text#descripcion__motherboard-3",
+      "rich-text#precio__motherboard-3",
+      "rich-text#motherboard__button-3"
+    ],
+    "props": {
+      "blockClass": "static-shelf-item"
+    }
+  },
+
+  "image#motherboard-3": {
+    "props": {
+      "src": "assets/products/motherboards/m-3.webp"
+    }
+  },
+  "rich-text#motherboard__title-3": {
+    "props": {
+      "text": "Asrock",
+      "blockClass": "featured-category"
+    }
+  },
+  "rich-text#descripcion__motherboard-3": {
+    "props": {
+      "text": "Board Asrock INTEL Z890 Livemixer Wifi DDR5",
+      "blockClass": "featured-description"
+    }
+  },
+  "rich-text#precio__motherboard-3": {
+    "props": {
+      "text": "$ 1.250.000",
+      "blockClass": "price"
+    }
+  },
+  "rich-text#motherboard__button-3": {
+    "props": {
+      "text": "Añadir al carrito",
+      "blockClass": "buy-button"
+    }
+  },
+  "flex-layout.col#motherboards-4": {
+    "children": [
+      "image#motherboard-4",
+      "rich-text#motherboard__title-4",
+      "rich-text#descripcion__motherboard-4",
+      "rich-text#precio__motherboard-4",
+      "rich-text#motherboard__button-4"
+    ],
+    "props": {
+      "blockClass": "static-shelf-item"
+    }
+  },
+
+  "image#motherboard-4": {
+    "props": {
+      "src": "assets/products/motherboards/m-4.webp"
+    }
+  },
+  "rich-text#motherboard__title-4": {
+    "props": {
+      "text": "Asrock",
+      "blockClass": "featured-category"
+    }
+  },
+  "rich-text#descripcion__motherboard-4": {
+    "props": {
+      "text": "Board Asrock INTEL B760M PG Riptide Wifi LGA 1700 Micro ATX",
+      "blockClass": "featured-description"
+    }
+  },
+  "rich-text#precio__motherboard-4": {
+    "props": {
+      "text": "$ 739.000",
+      "blockClass": "price"
+    }
+  },
+  "rich-text#motherboard__button-4": {
+    "props": {
+      "text": "Añadir al carrito",
+      "blockClass": "buy-button"
+    }
+  },
+  "flex-layout.row#motherboards__2": {
+    "children": [
+      "flex-layout.col#motherboards-5",
+      "flex-layout.col#motherboards-6",
+      "flex-layout.col#motherboards-7",
+      "flex-layout.col#motherboards-8"
+    ]
+  },
+  "flex-layout.col#motherboards-5": {
+    "children": [
+      "image#motherboard-5",
+      "rich-text#motherboard__title-5",
+      "rich-text#descripcion__motherboard-5",
+      "rich-text#precio__motherboard-5",
+      "rich-text#motherboard__button-5"
+    ],
+    "props": {
+      "blockClass": "static-shelf-item"
+    }
+  },
+  "image#motherboard-5": {
+    "props": {
+      "src": "assets/products/motherboards/m-5.webp"
+    }
+  },
+  "rich-text#motherboard__title-5": {
+    "props": {
+      "text": "Asrock",
+      "blockClass": "featured-category"
+    }
+  },
+  "rich-text#descripcion__motherboard-5": {
+    "props": {
+      "text": "Board Asrock INTEL Z790 Phanton Gaming Sonic LGA 1700 ATX",
+      "blockClass": "featured-description"
+    }
+  },
+  "rich-text#precio__motherboard-5": {
+    "props": {
+      "text": "$ 880.000",
+      "blockClass": "price"
+    }
+  },
+  "rich-text#motherboard__button-5": {
+    "props": {
+      "text": "Añadir al carrito",
+      "blockClass": "buy-button"
+    }
+  },
+  "flex-layout.col#motherboards-6": {
+    "children": [
+      "image#motherboard-6",
+      "rich-text#motherboard__title-6",
+      "rich-text#descripcion__motherboard-6",
+      "rich-text#precio__motherboard-6",
+      "rich-text#motherboard__button-6"
+    ],
+    "props": {
+      "blockClass": "static-shelf-item"
+    }
+  },
+
+  "image#motherboard-6": {
+    "props": {
+      "src": "assets/products/motherboards/m-6.webp"
+    }
+  },
+  "rich-text#motherboard__title-6": {
+    "props": {
+      "text": "Asrock",
+      "blockClass": "featured-category"
+    }
+  },
+  "rich-text#descripcion__motherboard-6": {
+    "props": {
+      "text": "Board Asrock INTEL H410M-H/M.2 SE LGA 1200 Micro ATX",
+      "blockClass": "featured-description"
+    }
+  },
+  "rich-text#precio__motherboard-6": {
+    "props": {
+      "text": "$ 271.000",
+      "blockClass": "price"
+    }
+  },
+  "rich-text#motherboard__button-6": {
+    "props": {
+      "text": "Añadir al carrito",
+      "blockClass": "buy-button"
+    }
+  },
+  "flex-layout.col#motherboards-7": {
+    "children": [
+      "image#motherboard-7",
+      "rich-text#motherboard__title-7",
+      "rich-text#descripcion__motherboard-7",
+      "rich-text#precio__motherboard-7",
+      "rich-text#motherboard__button-7"
+    ],
+    "props": {
+      "blockClass": "static-shelf-item"
+    }
+  },
+
+  "image#motherboard-7": {
+    "props": {
+      "src": "assets/products/motherboards/m-7.webp"
+    }
+  },
+  "rich-text#motherboard__title-7": {
+    "props": {
+      "text": "Asrock",
+      "blockClass": "featured-category"
+    }
+  },
+  "rich-text#descripcion__motherboard-7": {
+    "props": {
+      "text": "Board Asrock INTEL H510M-HDV/M.2 SE LGA 1200 Micro ATX",
+      "blockClass": "featured-description"
+    }
+  },
+  "rich-text#precio__motherboard-7": {
+    "props": {
+      "text": "$ 293.000",
+      "blockClass": "price"
+    }
+  },
+  "rich-text#motherboard__button-7": {
+    "props": {
+      "text": "Añadir al carrito",
+      "blockClass": "buy-button"
+    }
+  },
+  "flex-layout.col#motherboards-8": {
+    "children": [
+      "image#motherboard-8",
+      "rich-text#motherboard__title-8",
+      "rich-text#descripcion__motherboard-8",
+      "rich-text#precio__motherboard-8",
+      "rich-text#motherboard__button-8"
+    ],
+    "props": {
+      "blockClass": "static-shelf-item"
+    }
+  },
+
+  "image#motherboard-8": {
+    "props": {
+      "src": "assets/products/motherboards/m-8.webp"
+    }
+  },
+  "rich-text#motherboard__title-8": {
+    "props": {
+      "text": "Asrock",
+      "blockClass": "featured-category"
+    }
+  },
+  "rich-text#descripcion__motherboard-8": {
+    "props": {
+      "text": "Board Asrock AMD B650M PG Lightning Wifi",
+      "blockClass": "featured-description"
+    }
+  },
+  "rich-text#precio__motherboard-8": {
+    "props": {
+      "text": "$ 684.000",
+      "blockClass": "price"
+    }
+  },
+  "rich-text#motherboard__button-8": {
+    "props": {
+      "text": "Añadir al carrito",
+      "blockClass": "buy-button"
+    }
+  }
+}

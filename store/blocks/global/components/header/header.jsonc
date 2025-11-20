@@ -9,8 +9,8 @@
       "title": "Logo",
       "href": "/",
       "url": "assets/img/logo.webp",
-      "width": "170",
-      "height": "80"
+      "width": "200",
+      "height": "auto"
     }
   }
 }

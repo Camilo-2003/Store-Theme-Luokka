@@ -8,7 +8,6 @@
 }
 .imageElement--category-image {
   border-radius: 20px; 
-  border: 2px solid red;
 }
 .searchBarContainer {
   display: flex;

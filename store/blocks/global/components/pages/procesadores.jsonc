@@ -1,0 +1,390 @@
+{
+  "store.custom#procesadores": {
+    "title": "Global - Procesadores page static",
+    "children": [
+      "flex-layout.row#view__procesadores--text",
+      "flex-layout.row#contenido__category-procesadores"
+    ]
+  },
+  
+  "flex-layout.row#view__procesadores--text": {
+    "title": "Row page procesadores text",
+    "children": [
+      "rich-text#view__procesadores--text"
+    ],
+    "props": {
+      "blockClass": "view__container-title"
+    }
+  },
+
+  "rich-text#view__procesadores--text": {
+    "title": "Text Page procesadores text",
+    "props": {
+      "text": "Procesadores",
+      "blockClass": "view__title-category"
+    }
+  },
+  "flex-layout.row#contenido__category-procesadores": {
+    "title": "Row Contenido of procesadores",
+    "children": [
+      "flex-layout.col#procesadores"
+    ],
+    "props": {
+      "blockClass": "contenido__tarjeta"
+    }
+  },
+  "flex-layout.col#procesadores": {
+    "children": [
+      "flex-layout.row#procesadores__1",
+      "flex-layout.row#procesadores__2"
+    ],
+    "props": {
+      "blockClass": "col__tarjetas"
+    }
+  },
+  "flex-layout.row#procesadores__1": {
+    "children": [
+      "flex-layout.col#procesadores-1",
+      "flex-layout.col#procesadores-2",
+      "flex-layout.col#procesadores-3",
+      "flex-layout.col#procesadores-4"
+    ]
+  },
+  "flex-layout.col#procesadores-1": {
+    "children": [
+      "image#procesador-1",
+      "rich-text#procesador__title-1",
+      "rich-text#procesador__descripcion-1",
+      "rich-text#precio__procesador-1",
+      "rich-text#procesador__button-1"
+    ],
+    "props": {
+      "blockClass": "static-shelf-item"
+    }
+  },
+  "image#procesador-1": {
+    "props": {
+      "src": "assets/products/procesadores/p-1.webp"
+    }
+  },
+  "rich-text#procesador__title-1": {
+    "props": {
+      "text": "AMD",
+      "blockClass": "featured-category"
+    }
+  },
+  "rich-text#procesador__descripcion-1": {
+    "props": {
+      "text": "Procesador Amd Ryzen 5 5600XT 6 Nucleos AM4 Con Cooler",
+      "blockClass": "featured-description"
+    }
+  },
+  "rich-text#precio__procesador-1": {
+    "props": {
+      "text": "$ 771.000",
+      "blockClass": "price"
+    }
+  },
+  "rich-text#procesador__button-1": {
+    "props": {
+      "text": "Añadir al carrito",
+      "blockClass": "buy-button"
+    }
+  }, "flex-layout.col#procesadores-2": {
+    "children": [
+      "image#procesador-2",
+      "rich-text#procesador__title-2",
+      "rich-text#procesador__descripcion-2",
+      "rich-text#precio__procesador-2",
+      "rich-text#procesador__button-2"
+    ],
+    "props": {
+      "blockClass": "static-shelf-item"
+    }
+  },
+  "image#procesador-2": {
+    "props": {
+      "src": "assets/products/procesadores/p-2.webp"
+    }
+  },
+  "rich-text#procesador__title-2": {
+    "props": {
+      "text": "Intel",
+      "blockClass": "featured-category"
+    }
+  },
+  "rich-text#procesador__descripcion-2": {
+    "props": {
+      "text": "Procesador intel Core I5 12400 6 nucleos Lga 1700",
+      "blockClass": "featured-description"
+    }
+  },
+  "rich-text#precio__procesador-2": {
+    "props": {
+      "text": "$ 674.000",
+      "blockClass": "price"
+    }
+  },
+  "rich-text#procesador__button-2": {
+    "props": {
+      "text": "Añadir al carrito",
+      "blockClass": "buy-button"
+    }
+  }, "flex-layout.col#procesadores-3": {
+    "children": [
+      "image#procesador-3",
+      "rich-text#procesador__title-3",
+      "rich-text#procesador__descripcion-3",
+      "rich-text#precio__procesador-3",
+      "rich-text#procesador__button-3"
+    ],
+    "props": {
+      "blockClass": "static-shelf-item"
+    }
+  },
+  "image#procesador-3": {
+    "props": {
+      "src": "assets/products/procesadores/p-3.webp"
+    }
+  },
+  "rich-text#procesador__title-3": {
+    "props": {
+      "text": "Intel",
+      "blockClass": "featured-category"
+    }
+  },
+  "rich-text#procesador__descripcion-3": {
+    "props": {
+      "text": "Procesador Intel Core I9 14900K 24 Nucleos Lga 1700",
+      "blockClass": "featured-description"
+    }
+  },
+  "rich-text#precio__procesador-3": {
+    "props": {
+      "text": "$ 2.260.000",
+      "blockClass": "price"
+    }
+  },
+  "rich-text#procesador__button-3": {
+    "props": {
+      "text": "Añadir al carrito",
+      "blockClass": "buy-button"
+    }
+  }, "flex-layout.col#procesadores-4": {
+    "children": [
+      "image#procesador-4",
+      "rich-text#procesador__title-4",
+      "rich-text#procesador__descripcion-4",
+      "rich-text#precio__procesador-4",
+      "rich-text#procesador__button-4"
+    ],
+    "props": {
+      "blockClass": "static-shelf-item"
+    }
+  },
+  "image#procesador-4": {
+    "props": {
+      "src": "assets/products/procesadores/p-4.webp"
+    }
+  },
+  "rich-text#procesador__title-4": {
+    "props": {
+      "text": "Intel",
+      "blockClass": "featured-category"
+    }
+  },
+  "rich-text#procesador__descripcion-4": {
+    "props": {
+      "text": "Procesador intel Core I7 14700 20 nucleos Lga 1700",
+      "blockClass": "featured-description"
+    }
+  },
+  "rich-text#precio__procesador-4": {
+    "props": {
+      "text": "$ 1.456.000",
+      "blockClass": "price"
+    }
+  },
+  "rich-text#procesador__button-4": {
+    "props": {
+      "text": "Añadir al carrito",
+      "blockClass": "buy-button"
+    }
+  },
+    "flex-layout.row#procesadores__2": {
+    "children": [
+      "flex-layout.col#procesadores-5",
+      "flex-layout.col#procesadores-6",
+      "flex-layout.col#procesadores-7",
+      "flex-layout.col#procesadores-8"
+    ]
+  },
+  "flex-layout.col#procesadores-5": {
+    "children": [
+      "image#procesador-5",
+      "rich-text#procesador__title-5",
+      "rich-text#procesador__descripcion-5",
+      "rich-text#precio__procesador-5",
+      "rich-text#procesador__button-5"
+    ],
+    "props": {
+      "blockClass": "static-shelf-item"
+    }
+  },
+  "image#procesador-5": {
+    "props": {
+      "src": "assets/products/procesadores/p-5.webp"
+    }
+  },
+  "rich-text#procesador__title-5": {
+    "props": {
+      "text": "AMD",
+      "blockClass": "featured-category"
+    }
+  },
+  "rich-text#procesador__descripcion-5": {
+    "props": {
+      "text": "Procesador AMD Ryzen 9 7900X3d - 12 Nucleos AM5 -Sin Cooler",
+      "blockClass": "featured-description"
+    }
+  },
+  "rich-text#precio__procesador-5": {
+    "props": {
+      "text": "$ 1.858.000",
+      "blockClass": "price"
+    }
+  },
+  "rich-text#procesador__button-5": {
+    "props": {
+      "text": "Añadir al carrito",
+      "blockClass": "buy-button"
+    }
+  },
+  "flex-layout.col#procesadores-6": {
+    "children": [
+      "image#procesador-6",
+      "rich-text#procesador__title-6",
+      "rich-text#procesador__descripcion-6",
+      "rich-text#precio__procesador-6",
+      "rich-text#procesador__button-6"
+    ],
+    "props": {
+      "blockClass": "static-shelf-item"
+    }
+  },
+
+  "image#procesador-6": {
+    "props": {
+      "src": "assets/products/procesadores/p-6.webp"
+    }
+  },
+  "rich-text#procesador__title-6": {
+    "props": {
+      "text": "AMD",
+      "blockClass": "featured-category"
+    }
+  },
+  "rich-text#procesador__descripcion-6": {
+    "props": {
+      "text": "Procesador AMD Ryzen 9 9950X3D - 16 Nucleos - AM5 - Sin Cooler",
+      "blockClass": "featured-description"
+    }
+  },
+  "rich-text#precio__procesador-6": {
+    "props": {
+      "text": "$ 2.989.000",
+      "blockClass": "price"
+    }
+  },
+  "rich-text#procesador__button-6": {
+    "props": {
+      "text": "Añadir al carrito",
+      "blockClass": "buy-button"
+    }
+  },
+  "flex-layout.col#procesadores-7": {
+    "children": [
+      "image#procesador-7",
+      "rich-text#procesador__title-7",
+      "rich-text#procesador__descripcion-7",
+      "rich-text#precio__procesador-7",
+      "rich-text#procesador__button-7"
+    ],
+    "props": {
+      "blockClass": "static-shelf-item"
+    }
+  },
+
+  "image#procesador-7": {
+    "props": {
+      "src": "assets/products/procesadores/p-7.webp"
+    }
+  },
+  "rich-text#procesador__title-7": {
+    "props": {
+      "text": "AMD",
+      "blockClass": "featured-category"
+    }
+  },
+  "rich-text#procesador__descripcion-7": {
+    "props": {
+      "text": "Procesador AMD Ryzen 7 7800X3D - 8 Nucleos - AM5",
+      "blockClass": "featured-description"
+    }
+  },
+  "rich-text#precio__procesador-7": {
+    "props": {
+      "text": "$ 1.858.000",
+      "blockClass": "price"
+    }
+  },
+  "rich-text#procesador__button-7": {
+    "props": {
+      "text": "Añadir al carrito",
+      "blockClass": "buy-button"
+    }
+  },
+  "flex-layout.col#procesadores-8": {
+    "children": [
+      "image#procesador-8",
+      "rich-text#procesador__title-8",
+      "rich-text#procesador__descripcion-8",
+      "rich-text#precio__procesador-8",
+      "rich-text#procesador__button-8"
+    ],
+    "props": {
+      "blockClass": "static-shelf-item"
+    }
+  },
+
+  "image#procesador-8": {
+    "props": {
+      "src": "assets/products/procesadores/p-8.webp"
+    }
+  },
+  "rich-text#procesador__title-8": {
+    "props": {
+      "text": "AMD",
+      "blockClass": "featured-category"
+    }
+  },
+  "rich-text#procesador__descripcion-8": {
+    "props": {
+      "text": "Procesador AMD Athlon 3000G 2 Núcleos AM4 Gráfica Radeon Vega.",
+      "blockClass": "featured-description"
+    }
+  },
+  "rich-text#precio__procesador-8": {
+    "props": {
+      "text": "$ 239.000",
+      "blockClass": "price"
+    }
+  },
+  "rich-text#procesador__button-8": {
+    "props": {
+      "text": "Añadir al carrito",
+      "blockClass": "buy-button"
+    }
+  }
+
+}

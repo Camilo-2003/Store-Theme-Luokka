@@ -1,0 +1,12 @@
+{
+  "search-result-layout.mobile": {
+    "children": [
+      "gallery-layout-switcher",
+      "search-content#global__search--layout",
+      "flex-layout.row#container__result--order-filter"
+    ],
+    "props": {
+      "preventRouteChange": true
+    }
+  }
+}

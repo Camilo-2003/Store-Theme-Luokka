@@ -1,0 +1,922 @@
+{  
+  "store.custom#tienda": {
+    "title": "Page of tienda",
+    "children": [
+      "flex-layout.row#page__tienda",
+      "flex-layout.row#contenido__category-tienda"
+    ]
+  },
+  "flex-layout.row#page__tienda": {
+    "title": "Row Page of tienda",
+    "children": [
+      
+    ]
+  },
+
+  "flex-layout.row#contenido__category-tienda": {
+    "title": "Row Contenido of tienda",
+    "children": [
+      "flex-layout.col#tienda"
+    ],
+    "props": {
+      "blockClass": "contenido__tarjeta--tienda"
+    }
+  },
+  
+  "flex-layout.col#tienda": {
+    "children": [
+      "flex-layout.row#tienda__1",
+      "flex-layout.row#tienda__2",
+      "flex-layout.row#tienda__3",
+      "flex-layout.row#tienda__4",
+      "flex-layout.row#tienda__5"
+    ],
+    "props": {
+      "blockClass": "col__tarjetas--tienda"
+    }
+  },
+  
+  "flex-layout.row#tienda__1": {
+    "children": [
+      "flex-layout.col#tienda-1",
+      "flex-layout.col#tienda-2",
+      "flex-layout.col#tienda-3",
+      "flex-layout.col#tienda-4"
+    ]
+  },
+
+  "flex-layout.col#tienda-1": {
+    "children": [
+      "image#tienda-1",
+      "rich-text#tienda__title-1",
+      "rich-text#tienda__descripcion-1",
+      "rich-text#precio__tienda-1",
+      "rich-text#tienda__button-1"
+    ],
+    "props": {
+      "blockClass": "static-shelf-item"
+    }
+  },
+  "image#tienda-1": {
+    "props": {
+      "src": "assets/products/almacenamiento/a-2.webp"
+    }
+  },
+  "rich-text#tienda__title-1": {
+    "props": {
+      "text": "Almacenamiento",
+      "blockClass": "featured-category"
+    }
+  },
+  "rich-text#tienda__descripcion-1": {
+    "props": {
+      "text": "Disco Externo 14 TB Seagate LACIE USB-C",
+      "blockClass": "featured-description"
+    }
+  },
+  "rich-text#precio__tienda-1": {
+    "props": {
+      "text": "$ 1.924.000",
+      "blockClass": "price"
+    }
+  },
+  "rich-text#tienda__button-1": {
+    "props": {
+      "text": "Añadir al carrito",
+      "blockClass": "buy-button"
+    }
+  },
+
+  "flex-layout.col#tienda-2": {
+    "children": [
+      "image#tienda-2",
+      "rich-text#tienda__title-2",
+      "rich-text#tienda__descripcion-2",
+      "rich-text#precio__tienda-2",
+      "rich-text#tienda__button-2"
+    ],
+    "props": {
+      "blockClass": "static-shelf-item"
+    }
+  },
+  "image#tienda-2": {
+    "props": {
+      "src": "assets/products/almacenamiento/a-1.webp"
+    }
+  },
+  "rich-text#tienda__title-2": {
+    "props": {
+      "text": "Almacenamiento",
+      "blockClass": "featured-category"
+    }
+  },
+  "rich-text#tienda__descripcion-2": {
+    "props": {
+      "text": "Disco Externo 26 TB Seagate Expansion USB",
+      "blockClass": "featured-description"
+    }
+  },
+  "rich-text#precio__tienda-2": {
+    "props": {
+      "text": "$ 2.804.000",
+      "blockClass": "price"
+    }
+  },
+  "rich-text#tienda__button-2": {
+    "props": {
+      "text": "Añadir al carrito",
+      "blockClass": "buy-button"
+    }
+  },
+
+  "flex-layout.col#tienda-3": {
+     "children": [
+      "image#tienda-3",
+      "rich-text#tienda__title-3",
+      "rich-text#tienda__descripcion-3",
+      "rich-text#precio__tienda-3",
+      "rich-text#tienda__button-3"
+    ],
+    "props": {
+      "blockClass": "static-shelf-item"
+    }
+  },
+  "image#tienda-3": {
+    "props": {
+      "src": "assets/products/almacenamiento/a-3.webp"
+    }
+  },
+  "rich-text#tienda__title-3": {
+    "props": {
+      "text": "Almacenamiento",
+      "blockClass": "featured-category"
+    }
+  },
+  "rich-text#tienda__descripcion-3": {
+    "props": {
+      "text": "Disco SSD 256 GB Patriot",
+      "blockClass": "featured-description"
+    }
+  },
+  "rich-text#precio__tienda-3": {
+    "props": {
+      "text": "$ 92.000",
+      "blockClass": "price"
+    }
+  },
+  "rich-text#tienda__button-3": {
+    "props": {
+      "text": "Añadir al carrito",
+      "blockClass": "buy-button"
+    }
+  },
+
+  "flex-layout.col#tienda-4": {
+     "children": [
+      "image#tienda-4",
+      "rich-text#tienda__title-4",
+      "rich-text#tienda__descripcion-4",
+      "rich-text#precio__tienda-4",
+      "rich-text#tienda__button-4"
+    ],
+    "props": {
+      "blockClass": "static-shelf-item"
+    }
+  },
+  "image#tienda-4": {
+    "props": {
+      "src": "assets/products/almacenamiento/a-4.webp"
+    }
+  },
+  "rich-text#tienda__title-4": {
+    "props": {
+      "text": "Almacenamiento",
+      "blockClass": "featured-category"
+    }
+  },
+  "rich-text#tienda__descripcion-4": {
+    "props": {
+      "text": "Disco Solido SSD M.2 500 GB Kingston NV3",
+      "blockClass": "featured-description"
+    }
+  },
+  "rich-text#precio__tienda-4": {
+    "props": {
+      "text": "$ 184.000",
+      "blockClass": "price"
+    }
+  },
+  "rich-text#tienda__button-4": {
+    "props": {
+      "text": "Añadir al carrito",
+      "blockClass": "buy-button"
+    }
+  },
+    
+  "flex-layout.row#tienda__2": {
+    "children": [
+      "flex-layout.col#tienda-5",
+      "flex-layout.col#tienda-6",
+      "flex-layout.col#tienda-7",
+      "flex-layout.col#tienda-8"
+    ]
+  },
+  "flex-layout.col#tienda-5": {
+     "children": [
+      "image#tienda-5",
+      "rich-text#tienda__title-5",
+      "rich-text#tienda__descripcion-5",
+      "rich-text#precio__tienda-5",
+      "rich-text#tienda__button-5"
+    ],
+    "props": {
+      "blockClass": "static-shelf-item"
+    }
+  },
+  "image#tienda-5": {
+    "props": {
+      "src": "assets/products/almacenamiento/a-5.webp"
+    }
+  },
+  "rich-text#tienda__title-5": {
+    "props": {
+      "text": "Almacenamiento",
+      "blockClass": "featured-category"
+    }
+  },
+  "rich-text#tienda__descripcion-5": {
+    "props": {
+      "text": "Disco Solido SSD M.2 2 TB Kingston NV3",
+      "blockClass": "featured-description"
+    }
+  },
+  "rich-text#precio__tienda-5": {
+    "props": {
+      "text": "$ 500.000",
+      "blockClass": "price"
+    }
+  },
+  "rich-text#tienda__button-5": {
+    "props": {
+      "text": "Añadir al carrito",
+      "blockClass": "buy-button"
+    }
+  },
+
+  "flex-layout.col#tienda-6": {
+    "children": [
+      "image#tienda-6",
+      "rich-text#tienda__title-6",
+      "rich-text#tienda__descripcion-6",
+      "rich-text#precio__tienda-6",
+      "rich-text#tienda__button-6"
+    ],
+    "props": {
+      "blockClass": "static-shelf-item"
+    }
+  },
+  "image#tienda-6": {
+    "props": {
+      "src": "assets/products/almacenamiento/a-6.webp"
+    }
+  },
+  "rich-text#tienda__title-6": {
+    "props": {
+      "text": "Adata",
+      "blockClass": "featured-category"
+    }
+  },
+  "rich-text#tienda__descripcion-6": {
+    "props": {
+      "text": "Disco Externo 5 TB Adata",
+      "blockClass": "featured-description"
+    }
+  },
+  "rich-text#precio__tienda-6": {
+    "props": {
+      "text": "$ 641.000",
+      "blockClass": "price"
+    }
+  },
+  "rich-text#tienda__button-6": {
+    "props": {
+      "text": "Añadir al carrito",
+      "blockClass": "buy-button"
+    }
+  },
+
+  "flex-layout.col#tienda-7": {
+     "children": [
+      "image#tienda-7",
+      "rich-text#tienda__title-7",
+      "rich-text#tienda__descripcion-7",
+      "rich-text#precio__tienda-7",
+      "rich-text#tienda__button-7"
+    ],
+    "props": {
+      "blockClass": "static-shelf-item"
+    }
+  },
+  "image#tienda-7": {
+    "props": {
+      "src": "assets/products/almacenamiento/a-7.webp"
+    }
+  },
+  "rich-text#tienda__title-7": {
+    "props": {
+      "text": "Adata",
+      "blockClass": "featured-category"
+    }
+  },
+  "rich-text#tienda__descripcion-7": {
+    "props": {
+      "text": "Disco Externo 4 TB Adata",
+      "blockClass": "featured-description"
+    }
+  },
+  "rich-text#precio__tienda-7": {
+    "props": {
+      "text": "$ 532.000",
+      "blockClass": "price"
+    }
+  },
+  "rich-text#tienda__button-7": {
+    "props": {
+      "text": "Añadir al carrito",
+      "blockClass": "buy-button"
+    }
+  },
+
+  "flex-layout.col#tienda-8": {
+     "children": [
+      "image#tienda-8",
+      "rich-text#tienda__title-8",
+      "rich-text#tienda__descripcion-8",
+      "rich-text#precio__tienda-8",
+      "rich-text#tienda__button-8"
+    ],
+    "props": {
+      "blockClass": "static-shelf-item"
+    }
+  },
+  "image#tienda-8": {
+    "props": {
+      "src": "assets/products/almacenamiento/a-8.webp"
+    }
+  },
+  "rich-text#tienda__title-8": {
+    "props": {
+      "text": "Adata",
+      "blockClass": "featured-category"
+    }
+  },
+  "rich-text#tienda__descripcion-8": {
+    "props": {
+      "text": "Disco Externo 2 TB Adata",
+      "blockClass": "featured-description"
+    }
+  },
+  "rich-text#precio__tienda-8": {
+    "props": {
+      "text": "$ 337.000",
+      "blockClass": "price"
+    }
+  },
+  "rich-text#tienda__button-8": {
+    "props": {
+      "text": "Añadir al carrito",
+      "blockClass": "buy-button"
+    }
+  },
+
+  "flex-layout.row#tienda__3": {
+    "children": [
+      "flex-layout.col#tienda-9",
+      "flex-layout.col#tienda-10",
+      "flex-layout.col#tienda-11",
+      "flex-layout.col#tienda-12"
+    ]
+  },
+
+  "flex-layout.col#tienda-9": {
+    "children": [
+      "image#tienda-9",
+      "rich-text#tienda__title-9",
+      "rich-text#tienda__descripcion-9",
+      "rich-text#precio__tienda-9",
+      "rich-text#tienda__button-9"
+    ],
+    "props": {
+      "blockClass": "static-shelf-item"
+    }
+  },
+  "image#tienda-9": {
+    "props": {
+      "src": "assets/products/almacenamiento/a-2.webp"
+    }
+  },
+  "rich-text#tienda__title-9": {
+    "props": {
+      "text": "Almacenamiento",
+      "blockClass": "featured-category"
+    }
+  },
+  "rich-text#tienda__descripcion-9": {
+    "props": {
+      "text": "Disco Externo 14 TB Seagate LACIE USB-C",
+      "blockClass": "featured-description"
+    }
+  },
+  "rich-text#precio__tienda-9": {
+    "props": {
+      "text": "$ 1.924.000",
+      "blockClass": "price"
+    }
+  },
+  "rich-text#tienda__button-9": {
+    "props": {
+      "text": "Añadir al carrito",
+      "blockClass": "buy-button"
+    }
+  },
+
+  "flex-layout.col#tienda-10": {
+    "children": [
+      "image#tienda-10",
+      "rich-text#tienda__title-10",
+      "rich-text#tienda__descripcion-10",
+      "rich-text#precio__tienda-10",
+      "rich-text#tienda__button-10"
+    ],
+    "props": {
+      "blockClass": "static-shelf-item"
+    }
+  },
+  "image#tienda-10": {
+    "props": {
+      "src": "assets/products/almacenamiento/a-1.webp"
+    }
+  },
+  "rich-text#tienda__title-10": {
+    "props": {
+      "text": "Almacenamiento",
+      "blockClass": "featured-category"
+    }
+  },
+  "rich-text#tienda__descripcion-10": {
+    "props": {
+      "text": "Disco Externo 26 TB Seagate Expansion USB",
+      "blockClass": "featured-description"
+    }
+  },
+  "rich-text#precio__tienda-10": {
+    "props": {
+      "text": "$ 2.804.000",
+      "blockClass": "price"
+    }
+  },
+  "rich-text#tienda__button-10": {
+    "props": {
+      "text": "Añadir al carrito",
+      "blockClass": "buy-button"
+    }
+  },
+
+  "flex-layout.col#tienda-11": {
+     "children": [
+      "image#tienda-11",
+      "rich-text#tienda__title-11",
+      "rich-text#tienda__descripcion-11",
+      "rich-text#precio__tienda-11",
+      "rich-text#tienda__button-11"
+    ],
+    "props": {
+      "blockClass": "static-shelf-item"
+    }
+  },
+  "image#tienda-11": {
+    "props": {
+      "src": "assets/products/almacenamiento/a-3.webp"
+    }
+  },
+  "rich-text#tienda__title-11": {
+    "props": {
+      "text": "Almacenamiento",
+      "blockClass": "featured-category"
+    }
+  },
+  "rich-text#tienda__descripcion-11": {
+    "props": {
+      "text": "Disco SSD 256 GB Patriot",
+      "blockClass": "featured-description"
+    }
+  },
+  "rich-text#precio__tienda-11": {
+    "props": {
+      "text": "$ 92.000",
+      "blockClass": "price"
+    }
+  },
+  "rich-text#tienda__button-11": {
+    "props": {
+      "text": "Añadir al carrito",
+      "blockClass": "buy-button"
+    }
+  },
+
+  "flex-layout.col#tienda-12": {
+     "children": [
+      "image#tienda-12",
+      "rich-text#tienda__title-12",
+      "rich-text#tienda__descripcion-12",
+      "rich-text#precio__tienda-12",
+      "rich-text#tienda__button-12"
+    ],
+    "props": {
+      "blockClass": "static-shelf-item"
+    }
+  },
+  "image#tienda-12": {
+    "props": {
+      "src": "assets/products/almacenamiento/a-4.webp"
+    }
+  },
+  "rich-text#tienda__title-12": {
+    "props": {
+      "text": "Almacenamiento",
+      "blockClass": "featured-category"
+    }
+  },
+  "rich-text#tienda__descripcion-12": {
+    "props": {
+      "text": "Disco Solido SSD M.2 500 GB Kingston NV3",
+      "blockClass": "featured-description"
+    }
+  },
+  "rich-text#precio__tienda-12": {
+    "props": {
+      "text": "$ 184.000",
+      "blockClass": "price"
+    }
+  },
+  "rich-text#tienda__button-12": {
+    "props": {
+      "text": "Añadir al carrito",
+      "blockClass": "buy-button"
+    }
+  },
+
+  "flex-layout.row#tienda__4": {
+    "children": [
+      "flex-layout.col#tienda-13",
+      "flex-layout.col#tienda-14",
+      "flex-layout.col#tienda-15",
+      "flex-layout.col#tienda-16"
+    ]
+  },
+
+  "flex-layout.col#tienda-13": {
+    "children": [
+      "image#tienda-13",
+      "rich-text#tienda__title-13",
+      "rich-text#tienda__descripcion-13",
+      "rich-text#precio__tienda-13",
+      "rich-text#tienda__button-13"
+    ],
+    "props": {
+      "blockClass": "static-shelf-item"
+    }
+  },
+  "image#tienda-13": {
+    "props": {
+      "src": "assets/products/almacenamiento/a-2.webp"
+    }
+  },
+  "rich-text#tienda__title-13": {
+    "props": {
+      "text": "Almacenamiento",
+      "blockClass": "featured-category"
+    }
+  },
+  "rich-text#tienda__descripcion-13": {
+    "props": {
+      "text": "Disco Externo 14 TB Seagate LACIE USB-C",
+      "blockClass": "featured-description"
+    }
+  },
+  "rich-text#precio__tienda-13": {
+    "props": {
+      "text": "$ 1.924.000",
+      "blockClass": "price"
+    }
+  },
+  "rich-text#tienda__button-13": {
+    "props": {
+      "text": "Añadir al carrito",
+      "blockClass": "buy-button"
+    }
+  },
+
+  "flex-layout.col#tienda-14": {
+    "children": [
+      "image#tienda-14",
+      "rich-text#tienda__title-14",
+      "rich-text#tienda__descripcion-14",
+      "rich-text#precio__tienda-14",
+      "rich-text#tienda__button-14"
+    ],
+    "props": {
+      "blockClass": "static-shelf-item"
+    }
+  },
+  "image#tienda-14": {
+    "props": {
+      "src": "assets/products/almacenamiento/a-1.webp"
+    }
+  },
+  "rich-text#tienda__title-14": {
+    "props": {
+      "text": "Almacenamiento",
+      "blockClass": "featured-category"
+    }
+  },
+  "rich-text#tienda__descripcion-14": {
+    "props": {
+      "text": "Disco Externo 26 TB Seagate Expansion USB",
+      "blockClass": "featured-description"
+    }
+  },
+  "rich-text#precio__tienda-14": {
+    "props": {
+      "text": "$ 2.804.000",
+      "blockClass": "price"
+    }
+  },
+  "rich-text#tienda__button-14": {
+    "props": {
+      "text": "Añadir al carrito",
+      "blockClass": "buy-button"
+    }
+  },
+
+  "flex-layout.col#tienda-15": {
+     "children": [
+      "image#tienda-15",
+      "rich-text#tienda__title-15",
+      "rich-text#tienda__descripcion-15",
+      "rich-text#precio__tienda-15",
+      "rich-text#tienda__button-15"
+    ],
+    "props": {
+      "blockClass": "static-shelf-item"
+    }
+  },
+  "image#tienda-15": {
+    "props": {
+      "src": "assets/products/almacenamiento/a-3.webp"
+    }
+  },
+  "rich-text#tienda__title-15": {
+    "props": {
+      "text": "Almacenamiento",
+      "blockClass": "featured-category"
+    }
+  },
+  "rich-text#tienda__descripcion-15": {
+    "props": {
+      "text": "Disco SSD 256 GB Patriot",
+      "blockClass": "featured-description"
+    }
+  },
+  "rich-text#precio__tienda-15": {
+    "props": {
+      "text": "$ 92.000",
+      "blockClass": "price"
+    }
+  },
+  "rich-text#tienda__button-15": {
+    "props": {
+      "text": "Añadir al carrito",
+      "blockClass": "buy-button"
+    }
+  },
+
+  "flex-layout.col#tienda-16": {
+     "children": [
+      "image#tienda-16",
+      "rich-text#tienda__title-16",
+      "rich-text#tienda__descripcion-16",
+      "rich-text#precio__tienda-16",
+      "rich-text#tienda__button-16"
+    ],
+    "props": {
+      "blockClass": "static-shelf-item"
+    }
+  },
+  "image#tienda-16": {
+    "props": {
+      "src": "assets/products/almacenamiento/a-4.webp"
+    }
+  },
+  "rich-text#tienda__title-16": {
+    "props": {
+      "text": "Almacenamiento",
+      "blockClass": "featured-category"
+    }
+  },
+  "rich-text#tienda__descripcion-16": {
+    "props": {
+      "text": "Disco Solido SSD M.2 500 GB Kingston NV3",
+      "blockClass": "featured-description"
+    }
+  },
+  "rich-text#precio__tienda-16": {
+    "props": {
+      "text": "$ 184.000",
+      "blockClass": "price"
+    }
+  },
+  "rich-text#tienda__button-16": {
+    "props": {
+      "text": "Añadir al carrito",
+      "blockClass": "buy-button"
+    }
+  },
+
+  "flex-layout.row#tienda__5": {
+    "children": [
+      "flex-layout.col#tienda-17",
+      "flex-layout.col#tienda-18",
+      "flex-layout.col#tienda-19",
+      "flex-layout.col#tienda-20"
+    ]
+  },
+
+  "flex-layout.col#tienda-17": {
+    "children": [
+      "image#tienda-17",
+      "rich-text#tienda__title-17",
+      "rich-text#tienda__descripcion-17",
+      "rich-text#precio__tienda-17",
+      "rich-text#tienda__button-17"
+    ],
+    "props": {
+      "blockClass": "static-shelf-item"
+    }
+  },
+  "image#tienda-17": {
+    "props": {
+      "src": "assets/products/almacenamiento/a-2.webp"
+    }
+  },
+  "rich-text#tienda__title-17": {
+    "props": {
+      "text": "Almacenamiento",
+      "blockClass": "featured-category"
+    }
+  },
+  "rich-text#tienda__descripcion-17": {
+    "props": {
+      "text": "Disco Externo 14 TB Seagate LACIE USB-C",
+      "blockClass": "featured-description"
+    }
+  },
+  "rich-text#precio__tienda-17": {
+    "props": {
+      "text": "$ 1.924.000",
+      "blockClass": "price"
+    }
+  },
+  "rich-text#tienda__button-17": {
+    "props": {
+      "text": "Añadir al carrito",
+      "blockClass": "buy-button"
+    }
+  },
+
+  "flex-layout.col#tienda-18": {
+    "children": [
+      "image#tienda-18",
+      "rich-text#tienda__title-18",
+      "rich-text#tienda__descripcion-18",
+      "rich-text#precio__tienda-18",
+      "rich-text#tienda__button-18"
+    ],
+    "props": {
+      "blockClass": "static-shelf-item"
+    }
+  },
+  "image#tienda-18": {
+    "props": {
+      "src": "assets/products/almacenamiento/a-1.webp"
+    }
+  },
+  "rich-text#tienda__title-18": {
+    "props": {
+      "text": "Almacenamiento",
+      "blockClass": "featured-category"
+    }
+  },
+  "rich-text#tienda__descripcion-18": {
+    "props": {
+      "text": "Disco Externo 26 TB Seagate Expansion USB",
+      "blockClass": "featured-description"
+    }
+  },
+  "rich-text#precio__tienda-18": {
+    "props": {
+      "text": "$ 2.804.000",
+      "blockClass": "price"
+    }
+  },
+  "rich-text#tienda__button-18": {
+    "props": {
+      "text": "Añadir al carrito",
+      "blockClass": "buy-button"
+    }
+  },
+
+  "flex-layout.col#tienda-19": {
+     "children": [
+      "image#tienda-19",
+      "rich-text#tienda__title-19",
+      "rich-text#tienda__descripcion-19",
+      "rich-text#precio__tienda-19",
+      "rich-text#tienda__button-19"
+    ],
+    "props": {
+      "blockClass": "static-shelf-item"
+    }
+  },
+  "image#tienda-19": {
+    "props": {
+      "src": "assets/products/almacenamiento/a-3.webp"
+    }
+  },
+  "rich-text#tienda__title-19": {
+    "props": {
+      "text": "Almacenamiento",
+      "blockClass": "featured-category"
+    }
+  },
+  "rich-text#tienda__descripcion-19": {
+    "props": {
+      "text": "Disco SSD 256 GB Patriot",
+      "blockClass": "featured-description"
+    }
+  },
+  "rich-text#precio__tienda-19": {
+    "props": {
+      "text": "$ 92.000",
+      "blockClass": "price"
+    }
+  },
+  "rich-text#tienda__button-19": {
+    "props": {
+      "text": "Añadir al carrito",
+      "blockClass": "buy-button"
+    }
+  },
+    
+  "flex-layout.col#tienda-20": {
+     "children": [
+      "image#tienda-20",
+      "rich-text#tienda__title-20",
+      "rich-text#tienda__descripcion-20",
+      "rich-text#precio__tienda-20",
+      "rich-text#tienda__button-20"
+    ],
+    "props": {
+      "blockClass": "static-shelf-item"
+    }
+  },
+  "image#tienda-20": {
+    "props": {
+      "src": "assets/products/almacenamiento/a-4.webp"
+    }
+  },
+  "rich-text#tienda__title-20": {
+    "props": {
+      "text": "Almacenamiento",
+      "blockClass": "featured-category"
+    }
+  },
+  "rich-text#tienda__descripcion-20": {
+    "props": {
+      "text": "Disco Solido SSD M.2 500 GB Kingston NV3",
+      "blockClass": "featured-description"
+    }
+  },
+  "rich-text#precio__tienda-20": {
+    "props": {
+      "text": "$ 184.000",
+      "blockClass": "price"
+    }
+  },
+    "rich-text#tienda__button-20": {
+    "props": {
+      "text": "Añadir al carrito",
+      "blockClass": "buy-button"
+    }
+  }
+}

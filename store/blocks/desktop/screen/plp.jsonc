@@ -1,0 +1,12 @@
+{
+  "search-result-layout.desktop": {
+    "children": [
+      "gallery-layout-switcher",
+      "flex-layout.row#container__result--order-filter",
+      "search-content#global__search--layout"
+    ],
+    "props": {
+      "preventRouteChange": true
+    }
+  }
+}

@@ -1,0 +1,7 @@
+{
+ "footer-layout.desktop": {
+    "children": [
+      "flex-layout.row#footer-container--desktop"
+    ]
+  }
+}

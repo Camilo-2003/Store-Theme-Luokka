@@ -15,7 +15,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "https://www.google.com",
+        "href": "/",
         "noFollow": false,
         "tagTitle": "home",
         "text": "Home" 
@@ -31,7 +31,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "#",
+        "href": "/sobre-nosotros",
         "noFollow": false,
         "tagTitle": "sobre-nosotros",
         "text": "Sobre nosotros" 
@@ -47,7 +47,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "#",
+        "href": "/tienda",
         "noFollow": false,
         "tagTitle": "tienda",
         "text": "Tienda ▽"      
@@ -85,7 +85,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "#",
+        "href": "/procesadores",
         "noFollow": false,
         "tagTitle": "procesadores",
         "text": "Procesadores"      
@@ -99,7 +99,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "#",
+        "href": "/motherboards",
         "noFollow": false,
         "tagTitle": "motherboards",
         "text": "Motherboards"
@@ -113,7 +113,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "#",
+        "href": "/almacenamiento",
         "noFollow": false,
         "tagTitle": "almacenamiento",
         "text": "Almacenamiento"
@@ -127,7 +127,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "#",
+        "href": "/ram",
         "noFollow": false,
         "tagTitle": "ram",
         "text": "Ram"
@@ -141,7 +141,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "#",
+        "href": "/tarjetas-de-video",
         "noFollow": false,
         "tagTitle": "tarjetas de video",
         "text": "Tarjetas de video"
@@ -155,7 +155,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "#",
+        "href": "/fuentes",
         "noFollow": false,
         "tagTitle": "fuentes",
         "text": "Fuentes"

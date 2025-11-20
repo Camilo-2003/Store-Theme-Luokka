@@ -1,0 +1,26 @@
+{
+  "store.custom#sobre__nosotros": {
+    "title": "Page of about us",
+    "children": [
+      "flex-layout.row#page__sobre__nosotros"
+    ]
+  },
+
+  "flex-layout.row#page__sobre__nosotros": {
+    "title": "Row Page of about us",
+    "children": [
+      "rich-text#sobre__nosotros--text"
+    ]
+  },
+
+  "rich-text#sobre__nosotros--text": {
+    "title": "Text page of about us",
+    "props": {
+      "font": "t-heading-3",
+      "text": "Preguntas Frecuentes",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "textColor": "color-sobre__nosotros"
+    }
+  }
+}

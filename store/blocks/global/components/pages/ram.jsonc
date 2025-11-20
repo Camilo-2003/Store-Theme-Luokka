@@ -1,0 +1,394 @@
+{
+  "store.custom#ram": {
+    "title": "Page of ram",
+    "children": [
+      "flex-layout.row#page__ram",
+      "flex-layout.row#contenido__category-ram"
+    ]
+  },
+
+  "flex-layout.row#page__ram": {
+    "title": "Row Page of ram",
+    "children": ["rich-text#ram--text"]
+  },
+
+  "rich-text#ram--text": {
+    "title": "Text page of ram",
+    "props": {
+      "text": "Memoria RAM",
+      "blockClass": "view__title-category"
+    }
+  },
+  "flex-layout.row#contenido__category-ram": {
+    "title": "Row Contenido of tarjetas de video",
+    "children": [
+      "flex-layout.col#ram"
+    ],
+    "props": {
+      "blockClass": "contenido__tarjeta"
+    }
+  },
+
+  "flex-layout.col#ram": {
+    "children": [
+      "flex-layout.row#ram__1", 
+      "flex-layout.row#ram__2"
+    ],
+    "props": {
+      "blockClass": "col__tarjetas"
+    }
+  },
+  "flex-layout.row#ram__1": {
+    "children": [
+      "flex-layout.col#ram-1",
+      "flex-layout.col#ram-2",
+      "flex-layout.col#ram-3",
+      "flex-layout.col#ram-4"
+    ]
+  },
+
+  "flex-layout.col#ram-1": {
+    "children": [
+      "image#ram-1",
+      "rich-text#ram__title-1",
+      "rich-text#ram__descripcion-1",
+      "rich-text#precio__ram-1",
+      "rich-text#ram__button-1"
+    ],
+    "props": {
+      "blockClass": "static-shelf-item"
+    }
+  },
+
+  "image#ram-1": {
+    "props": {
+      "src": "assets/products/p1.webp"
+    }
+  },
+  "rich-text#ram__title-1": {
+    "props": {
+      "text": "Ram",
+      "blockClass": "featured-category"
+    }
+  },
+  "rich-text#ram__descripcion-1": {
+    "props": {
+      "text": " ",
+      "blockClass": "featured-description"
+    }
+  },
+  "rich-text#precio__ram-1": {
+    "props": {
+      "text": "$ 0",
+      "blockClass": "price"
+    }
+  },
+  "rich-text#ram__button-1": {
+    "props": {
+      "text": "Añadir al carrito",
+      "blockClass": "buy-button"
+    }
+  },
+  "flex-layout.col#ram-2": {
+    "children": [
+      "image#ram-2",
+      "rich-text#ram__title-2",
+      "rich-text#ram__descripcion-2",
+      "rich-text#precio__ram-2",
+      "rich-text#ram__button-2"
+    ],
+    "props": {
+      "blockClass": "static-shelf-item"
+    }
+  },
+
+  "image#ram-2": {
+    "props": {
+      "src": "assets/products/p8.webp"
+    }
+  },
+  "rich-text#ram__title-2": {
+    "props": {
+      "text": "Ram",
+      "blockClass": "featured-category"
+    }
+  },
+  "rich-text#ram__descripcion-2": {
+    "props": {
+      "text": " ",
+      "blockClass": "featured-description"
+    }
+  },
+  "rich-text#precio__ram-2": {
+    "props": {
+      "text": "$ 0",
+      "blockClass": "price"
+    }
+  },
+
+  "rich-text#ram__button-2": {
+    "props": {
+      "text": "Añadir al carrito",
+      "blockClass": "buy-button"
+    }
+  },
+  "flex-layout.col#ram-3": {
+    "children": [
+      "image#ram-3",
+      "rich-text#ram__title-3",
+      "rich-text#ram__descripcion-3",
+      "rich-text#precio__ram-3",
+      "rich-text#ram__button-3"
+    ],
+    "props": {
+      "blockClass": "static-shelf-item"
+    }
+  },
+
+  "image#ram-3": {
+    "props": {
+      "src": "assets/products/p3.webp"
+    }
+  },
+  "rich-text#ram__title-3": {
+    "props": {
+      "text": "Ram",
+      "blockClass": "featured-category"
+    }
+  },
+  "rich-text#ram__descripcion-3": {
+    "props": {
+      "text": " ",
+      "blockClass": "featured-description"
+    }
+  },
+  "rich-text#precio__ram-3": {
+    "props": {
+      "text": "$ 0",
+      "blockClass": "price"
+    }
+  },
+  "rich-text#ram__button-3": {
+    "props": {
+      "text": "Añadir al carrito",
+      "blockClass": "buy-button"
+    }
+  },
+  "flex-layout.col#ram-4": {
+    "children": [
+      "image#ram-4",
+      "rich-text#ram__title-4",
+      "rich-text#ram__descripcion-4",
+      "rich-text#precio__ram-4",
+      "rich-text#ram__button-4"
+    ],
+    "props": {
+      "blockClass": "static-shelf-item"
+    }
+  },
+
+  "image#ram-4": {
+    "props": {
+      "src": "assets/products/p4.webp"
+    }
+  },
+  "rich-text#ram__title-4": {
+    "props": {
+      "text": "Ram",
+      "blockClass": "featured-category"
+    }
+  },
+  "rich-text#ram__descripcion-4": {
+    "props": {
+      "text": " ",
+      "blockClass": "featured-description"
+    }
+  },
+  "rich-text#precio__ram-4": {
+    "props": {
+      "text": "$ 0",
+      "blockClass": "price"
+    }
+  },
+  "rich-text#ram__button-4": {
+    "props": {
+      "text": "Añadir al carrito",
+      "blockClass": "buy-button"
+    }
+  },
+  "flex-layout.row#ram__2": {
+    "children": [
+      "flex-layout.col#ram-5",
+      "flex-layout.col#ram-6",
+      "flex-layout.col#ram-7",
+      "flex-layout.col#ram-8"
+    ]
+  },
+  "flex-layout.col#ram-5": {
+    "children": [
+      "image#ram-5",
+      "rich-text#ram__title-5",
+      "rich-text#ram__descripcion-5",
+      "rich-text#precio__ram-5",
+      "rich-text#ram__button-5"
+    ],
+    "props": {
+      "blockClass": "static-shelf-item"
+    }
+  },
+  "image#ram-5": {
+    "props": {
+      "src": "assets/products/p1.webp"
+    }
+  },
+  "rich-text#ram__title-5": {
+    "props": {
+      "text": "Ram",
+      "blockClass": "featured-category"
+    }
+  },
+  "rich-text#ram__descripcion-5": {
+    "props": {
+      "text": " ",
+      "blockClass": "featured-description"
+    }
+  },
+  "rich-text#precio__ram-5": {
+    "props": {
+      "text": "$ 0",
+      "blockClass": "price"
+    }
+  },
+  "rich-text#ram__button-5": {
+    "props": {
+      "text": "Añadir al carrito",
+      "blockClass": "buy-button"
+    }
+  },
+  "flex-layout.col#ram-6": {
+    "children": [
+      "image#ram-6",
+      "rich-text#ram__title-6",
+      "rich-text#ram__descripcion-6",
+      "rich-text#precio__ram-6",
+      "rich-text#ram__button-6"
+    ],
+    "props": {
+      "blockClass": "static-shelf-item"
+    }
+  },
+
+  "image#ram-6": {
+    "props": {
+      "src": "assets/products/p8.webp"
+    }
+  },
+  "rich-text#ram__title-6": {
+    "props": {
+      "text": "Ram",
+      "blockClass": "featured-category"
+    }
+  },
+  "rich-text#ram__descripcion-6": {
+    "props": {
+      "text": " ",
+      "blockClass": "featured-description"
+    }
+  },
+  "rich-text#precio__ram-6": {
+    "props": {
+      "text": "$ 0",
+      "blockClass": "price"
+    }
+  },
+  "rich-text#ram__button-6": {
+    "props": {
+      "text": "Añadir al carrito",
+      "blockClass": "buy-button"
+    }
+  },
+  "flex-layout.col#ram-7": {
+    "children": [
+      "image#ram-7",
+      "rich-text#ram__title-7",
+      "rich-text#ram__descripcion-7",
+      "rich-text#precio__ram-7",
+      "rich-text#ram__button-7"
+    ],
+    "props": {
+      "blockClass": "static-shelf-item"
+    }
+  },
+
+  "image#ram-7": {
+    "props": {
+      "src": "assets/products/p3.webp"
+    }
+  },
+  "rich-text#ram__title-7": {
+    "props": {
+      "text": "Ram",
+      "blockClass": "featured-category"
+    }
+  },
+  "rich-text#ram__descripcion-7": {
+    "props": {
+      "text": " ",
+      "blockClass": "featured-description"
+    }
+  },
+  "rich-text#precio__ram-7": {
+    "props": {
+      "text": "$ 0",
+      "blockClass": "price"
+    }
+  },
+  "rich-text#ram__button-7": {
+    "props": {
+      "text": "Añadir al carrito",
+      "blockClass": "buy-button"
+    }
+  },
+  "flex-layout.col#ram-8": {
+    "children": [
+      "image#ram-8",
+      "rich-text#ram__title-8",
+      "rich-text#ram__descripcion-8",
+      "rich-text#precio__ram-8",
+      "rich-text#ram__button-8"
+    ],
+    "props": {
+      "blockClass": "static-shelf-item"
+    }
+  },
+
+  "image#ram-8": {
+    "props": {
+      "src": "assets/products/p4.webp"
+    }
+  },
+  "rich-text#ram__title-8": {
+    "props": {
+      "text": "Ram",
+      "blockClass": "featured-category"
+    }
+  },
+  "rich-text#ram__descripcion-8": {
+    "props": {
+      "text": " ",
+      "blockClass": "featured-description"
+    }
+  },
+  "rich-text#precio__ram-8": {
+    "props": {
+      "text": "$ 0",
+      "blockClass": "price"
+    }
+  },
+  "rich-text#ram__button-8": {
+    "props": {
+      "text": "Añadir al carrito",
+      "blockClass": "buy-button"
+    }
+  }
+}

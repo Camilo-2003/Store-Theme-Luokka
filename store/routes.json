@@ -1,0 +1,26 @@
+{
+  "store.custom#sobre__nosotros": {
+    "path": "/sobre-nosotros"
+  },
+  "store.custom#tienda": {
+    "path": "/tienda"
+  },
+  "store.custom#procesadores": {
+    "path": "/procesadores"
+  },
+  "store.custom#motherboards": {
+    "path": "/motherboards"
+  },
+  "store.custom#almacenamiento": {
+    "path": "/almacenamiento"
+  },
+  "store.custom#ram": {
+    "path": "/ram"
+  },
+  "store.custom#tarjetas__de__video": {
+    "path": "/tarjetas-de-video"
+  },
+  "store.custom#fuentes": {
+    "path": "/fuentes"
+  }
+}

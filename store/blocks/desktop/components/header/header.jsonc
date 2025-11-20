@@ -19,7 +19,7 @@
     "children": [
       "flex-layout.col#logo-desktop",
       "flex-layout.col#spacer",
-      "login",
+      // "login",
       "search-bar",
       "vtex.menu@2.x:menu#websites",
       "minicart.v2"

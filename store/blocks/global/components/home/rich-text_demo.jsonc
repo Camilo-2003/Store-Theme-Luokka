@@ -59,7 +59,7 @@
   },
   "image#category-1": {
     "props": {
-      "src": "assets/img/toshiba.jpeg",
+      "src": "assets/img/logo-1.png",
       "alt": "Procesadores",
       "maxHeight": 80,
       "blockClass": "category-image"
@@ -87,7 +87,7 @@
   },
   "image#category-2": {
     "props": {
-      "src": "assets/img/toshiba.jpeg",
+      "src": "assets/img/logo-2.png",
       "alt": "Boards",
       "maxHeight": 80,
       "blockClass": "category-image"
@@ -114,7 +114,7 @@
   },
   "image#category-3": {
     "props": {
-      "src": "assets/img/toshiba.jpeg",
+      "src": "assets/img/logo-3.png",
       "alt": "Ram",
       "maxHeight": 80,
       "blockClass": "category-image"
@@ -141,7 +141,7 @@
   },
   "image#category-4": {
     "props": {
-      "src": "assets/img/toshiba.jpeg",
+      "src": "assets/img/logo-4.png",
       "alt": "Almacenamiento",
       "maxHeight": 80,
       "blockClass": "category-image"
@@ -169,7 +169,7 @@
   },
   "image#category-5": {
     "props": {
-      "src": "assets/img/toshiba.jpeg",
+      "src": "assets/img/logo-5.png",
       "alt": "Tarjetas de video",
       "maxHeight": 80,
       "blockClass": "category-image"
@@ -197,7 +197,7 @@
   },
   "image#category-6": {
     "props": {
-      "src": "assets/img/toshiba.jpeg",
+      "src": "assets/img/logo-6.png",
       "alt": "Fuentes",
       "maxHeight": 80,
       "blockClass": "category-image"

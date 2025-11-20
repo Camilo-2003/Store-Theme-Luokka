@@ -1,0 +1,36 @@
+{
+  "social-networks#footer": {
+    "props": {
+    "socialNetworks": [
+      { "url": "https://www.facebook.com/luokkatechnology/", "name": "Facebook" },
+      { "url": "https://www.instagram.com/luokkatechnology/", "name": "Instagram" },
+      { "url": "https://api.whatsapp.com/send?phone=573106187108&text=Hola,%20estaba%20en%20www.luokka.co%20%20y%20quiero%20saber%20acerca%20de%20:%20", "name": "LinkedIn" },
+      { "url": "ventas@luokka.co", "name": "Youtube" }
+    ],
+    "showInColor": true, 
+    "horizontalAlign": "center", 
+    "blockClass": "footer-social-icons" 
+  }
+  },
+  "rich-text#direccion": {
+    "props": {
+      "text": "Bogotá, Cra 15 # 77 - 05, Centro de alta tecnología, Local 191.",
+      "blockClass": "footer-text"
+    }
+  },
+  "rich-text#empresa": {
+    "props": {
+      "text": "Luokka Technology by D.O",
+      "blockClass": "footer-text"
+    }
+  },
+  "accepted-payment-methods": {
+    "props": {
+      "paymentMethods": [
+        "visa",
+        "mastercard"
+      ],
+      "blockClass": "footer-payment-methods"
+    }
+  }
+}

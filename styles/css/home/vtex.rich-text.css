@@ -90,3 +90,15 @@
 .wrapper--text-in-PHONE {
   color: #1116b9;
 }
+.wrapper--view__title-category {
+  width: 100%;
+  text-align: left;
+}
+.paragraph--view__title-category {
+  /* font-family: "Roboto", Noto Sans; */
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: 9px;
+  margin-left: 50px;
+  color: #000;
+}
